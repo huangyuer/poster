@@ -1,0 +1,31 @@
+{
+  "post": {
+
+    "mfbillList": {
+      "dataType": "json",
+      "url": "/mfbill/list",
+      "oauth": true
+    },
+
+    "mfbillGetdetail": {
+      "dataType": "file",
+      "url": "/mfbill/getdetail",
+      "oauth": true
+    },
+
+    "mfbillGetOwnerList": {
+      "dataType": "json",
+      "url": "/mfbill/getOwnerList",
+      "oauth": true
+    },
+
+    "mfbillOptlist": {
+      "dataType": "file",
+      "url": "/mfbill/optlist",
+      "oauth": true
+    }
+  },
+  "get": {
+
+  }
+}

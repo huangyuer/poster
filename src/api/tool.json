@@ -1,0 +1,72 @@
+{
+  "post": {
+    "toolKickoutGetDetail": {
+			"dataType": "json",
+			"url": "/tool/kickout/getDetail",
+			"oauth": true
+		},
+		"autoExportSave": {
+			"dataType": "json",
+			"url": "/tool/autoExport/save",
+			"oauth": true
+		},
+		"autoExportDelete": {
+			"dataType": "json",
+			"url": "/tool/autoExport/delete",
+			"oauth": true
+		},
+		"getAutoTradeList": {
+			"dataType": "json",
+			"url": "/tool/autoExport/getAutoTradeList",
+			"oauth": true
+		},
+		"toolKickoutGetVersion": {
+			"dataType": "json",
+			"url": "/tool/kickout/getVersion",
+			"oauth": false
+    },
+    "exportFile": {
+			"dataType": "json",
+			"url": "/tool/exportFile/save",
+			"oauth": true
+		},
+		"toolHelpGetList": {
+			"dataType": "json",
+			"url": "/tool/help/getList",
+			"oauth": true
+    },
+    "downloadFile": {
+			"dataType": "json",
+			"url": "/tool/file/downloadFile",
+			"oauth": true
+    },
+    "fileUpload": {
+			"dataType": "file",
+			"url": "/tool/file/upload",
+			"oauth": true
+		},
+		"fileUpdate": {
+			"dataType": "json",
+			"url": "/tool/file/update",
+			"oauth": true
+		},
+		"fileDelete": {
+			"dataType": "json",
+			"url": "/tool/file/delete",
+			"oauth": true
+		},
+		"getFile": {
+			"dataType": "json",
+			"url": "/tool/file/getList",
+			"oauth": true
+		},
+		"getImportList": {
+			"dataType": "json",
+			"url": "/tool/import/getList",
+			"oauth": true
+		}
+  },
+  "get": {
+
+  }
+}

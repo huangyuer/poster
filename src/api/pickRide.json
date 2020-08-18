@@ -1,0 +1,60 @@
+{
+  "post": {
+    "pickRideSavePackageList": {
+      "dataType": "json",
+      "url": "/pickRide/insertPackageList",
+      "oauth": true
+    },
+
+    "pickRidePackageListDeclare": {
+      "dataType": "json",
+      "url": "/pickRide/packageListDeclare",
+      "oauth": true
+    },
+    "pickRidePackageListAll": {
+      "dataType": "json",
+      "url": "/pickRide/packageListAll",
+      "oauth": true
+    },
+    "pickRidePackageListInfo": {
+      "dataType": "json",
+      "url": "/pickRide/packageListInfo",
+      "oauth": true
+    },
+    "pickRideUpdatePackageList": {
+      "dataType": "json",
+      "url": "/pickRide/updatePackageList",
+      "oauth": true
+    },
+    "pickRideDeletePackageListBsc": {
+      "dataType": "json",
+      "url": "/pickRide/deletePackageListBsc",
+      "oauth": true
+    },
+    "pickRidePackageListAbolished": {
+      "dataType": "json",
+      "url": "/pickRide/packageListAbolished",
+      "oauth": true
+    },
+    "pickRideEntrustSign": {
+      "dataType": "json",
+      "url": "/pickRide/entrustSign",
+      "oauth": true
+    },
+    "pickRideCancelEntrustSign": {
+      "dataType": "json",
+      "url": "/pickRide/cancelEntrustSign",
+      "oauth": true
+    },
+    "pickRideManualUnBind": {
+      "dataType": "json",
+      "url": "/pickRide/manualUnBind",
+      "oauth": true
+    }
+  },
+
+
+  "get": {
+
+  }
+}

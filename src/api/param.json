@@ -1,0 +1,96 @@
+{
+    "post":{	"queryExchangeRate": {
+			"dataType": "json",
+			"url": "/param/getExchangeRateList",
+			"oauth": true
+		},
+		"queryWraptypeList": {
+			"dataType": "json",
+			"url": "/param/getWraptypeList",
+			"oauth": true
+		},
+		"getProcessList": {
+			"dataType": "json",
+			"url": "/param/getProcessList",
+			"oauth": true
+		},
+		"queryUseTo": {
+			"dataType": "json",
+			"url": "/param/getUseToList",
+			"oauth": true
+		},
+		"queryLevymode": {
+			"dataType": "json",
+			"url": "/param/getLevymodeList",
+			"oauth": true
+    },
+    "queryComplex": {
+			"dataType": "json",
+			"url": "/param/getComplexList",
+			"oauth": true
+		},
+		"paramModifyGdecdGetList": {
+			"dataType": "json",
+			"url": "/param/modifyGdecd/getList",
+			"oauth": true
+		},
+		"paramModifyGdecdGetDetail": {
+			"dataType": "json",
+			"url": "/param/modifyGdecd/getDetail",
+			"oauth": true
+		},
+		"queryCurr": {
+			"dataType": "json",
+			"url": "/param/getCurrList",
+			"oauth": true
+		},
+		"queryTradeMode": {
+			"dataType": "json",
+			"url": "/param/getTradeModeList",
+			"oauth": true
+		},
+		"queryTransf": {
+			"dataType": "json",
+			"url": "/param/getTransfList",
+			"oauth": true
+		},
+		"queryTransac": {
+			"dataType": "json",
+			"url": "/param/getTransacList",
+			"oauth": true
+		},
+		"queryCustom": {
+			"dataType": "json",
+			"url": "/param/getCustomList",
+			"oauth": true
+		},
+		"queryDistrict": {
+			"dataType": "json",
+			"url": "/param/getDistrictList",
+			"oauth": true
+		},
+		"queryCountry": {
+			"dataType": "json",
+			"url": "/param/getCountryList",
+			"oauth": true
+		},
+		"queryUnit": {
+			"dataType": "json",
+			"url": "/param/getUnitList",
+			"oauth": true
+		},
+		"getPortstdList": {
+			"dataType": "json",
+			"url": "/param/getPortstdList",
+			"oauth": true
+		},
+		"getLevytypeList": {
+			"dataType": "json",
+			"url": "/param/getLevytypeList",
+			"oauth": true
+		}
+    },
+    "get":{
+        
+    }
+}

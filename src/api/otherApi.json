@@ -1,0 +1,2040 @@
+{
+
+    "post": {
+        "_bill": "生成账单",
+        "_framework": "框架接口",
+        "getUserInfo": {
+            "dataType": "form",
+            "url": "/userInfo",
+            "oauth": true
+        },
+        "sysLogin": {
+            "dataType": "json",
+            "url": "/user/login1",
+            "oauth": false
+        },
+        "BackLogin": {
+            "dataType": "json",
+            "url": "/user/sendYzm",
+            "oauth": false
+        },
+        "BindUser": {
+            "dataType": "json",
+            "url": "/user/bindUser",
+            "oauth": true
+        },
+        "changePassWord": {
+            "dataType": "json",
+            "url": "/user/updatePassword",
+            "oauth": true
+        },
+        "BackLoginUser": {
+            "dataType": "json",
+            "url": "/user/resetPassword",
+            "oauth": false
+        },
+        "sysLogout": {
+            "dataType": "json",
+            "url": "/user/lognOut",
+            "oauth": true
+        },
+        "backPassword": {
+            "url": "/user/sendYzm",
+            "dataType": "json",
+            "oauth": true
+        },
+        "userLoginByToken": {
+            "url": "/user/loginByToken",
+            "dataType": "json",
+            "oauth": false
+        },
+        "getConfig": {
+            "url": "/getConfig"
+        },
+        "resetPass": {
+            "dataType": "form",
+            "url": "/user/login"
+        },
+        "searchPayee": {
+            "dataType": "form",
+            "url": "/payeeOrg/searchPayee"
+        },
+        "addManagerUser": {
+            "dataType": "json",
+            "url": "/user/addManagerUser",
+            "oauth": true
+        },
+        "addOperatorUser": {
+            "dataType": "json",
+            "url": "/user/addUummser",
+            "oauth": true
+        },
+        "queryUser": {
+            "dataType": "json",
+            "url": "/user/getUsers",
+            "oauth": true
+        },
+        "updateManagerUser": {
+            "dataType": "json",
+            "url": "/user/updateManagerUser",
+            "oauth": true
+        },
+        "updateOperatorUser": {
+            "dataType": "json",
+            "url": "/user/updateOperatorUser",
+            "oauth": true
+        },
+        "userDelete": {
+            "dataType": "json",
+            "url": "/user/deleteManagerUser",
+            "oauth": true
+        },
+        "addEnterprise": {
+            "dataType": "json",
+            "url": "/org/saveTrade",
+            "oauth": true
+        },
+        "orgGetOrgStatus": {
+            "dataType": "json",
+            "url": "/org/getOrgStatus",
+            "oauth": true
+        },
+        "orgGetTrdStatus": {
+            "dataType": "json",
+            "url": "/org/getTrdStatus",
+            "oauth": true
+        },
+        "enterpriseSave": {
+            "dataType": "json",
+            "url": "/org/updateTrade",
+            "oauth": true
+        },
+        "enterpriseDelete": {
+            "dataType": "json",
+            "url": "/user/addTrade",
+            "oauth": true
+        },
+        "queryEnterprise": {
+            "dataType": "json",
+            "url": "/org/getTradeList",
+            "oauth": true
+        },
+        "orgGetTradeByPage": {
+            "dataType": "json",
+            "url": "/org/getTradeByPage",
+            "oauth": true
+        },
+        "getTradeById": {
+            "dataType": "json",
+            "url": "/org/getTradeDetail",
+            "oauth": true
+        },
+        "declareTrade": {
+            "dataType": "json",
+            "url": "/org/declareTrade",
+            "oauth": true
+        },
+        "addOrganization": {
+            "dataType": "json",
+            "url": "/org/saveOrg",
+            "oauth": true
+        },
+        "organizationSave": {
+            "dataType": "json",
+            "url": "/org/updateOrg",
+            "oauth": true
+        },
+        "deleteOrg": {
+            "dataType": "json",
+            "url": "/org/deleteOrg",
+            "oauth": true
+        },
+        "queryOrganization": {
+            "dataType": "json",
+            "url": "/org/getOrgList",
+            "oauth": true
+        },
+        "orgGetOrgByPage": {
+            "dataType": "json",
+            "url": "/org/getOrgByPage",
+            "oauth": true
+        },
+        "getOrganizationById": {
+            "dataType": "json",
+            "url": "/org/getOrgDetail",
+            "oauth": true
+        },
+        "getOrgGetOrgProIn": {
+            "dataType": "json",
+            "url": "/org/getOrgProIn",
+            "oauth": true
+        },
+        "getOrgGetOrgProOut": {
+            "dataType": "json",
+            "url": "/org/getOrgProOut",
+            "oauth": true
+        },
+        "queryOrgrelation": {
+            "dataType": "json",
+            "url": "/org/queryOrgrelation",
+            "oauth": true
+        },
+        "getOrgGetOrgCsgIn": {
+            "dataType": "json",
+            "url": "/org/getOrgCsgIn",
+            "oauth": true
+        },
+        "getOrgGetOrgCsgSub": {
+            "dataType": "json",
+            "url": "/org/getOrgCsgSub",
+            "oauth": true
+        },
+        "getOrgIdByAccountBook": {
+            "dataType": "json",
+            "url": "/org/getOrgIdByAccountBook",
+            "oauth": true
+        },
+        "getgiveupAgc": {
+            "dataType": "json",
+            "url": "/org/giveupAgc",
+            "oauth": true
+        },
+        "getgiveAgc": {
+            "dataType": "json",
+            "url": "/org/giveAgc",
+            "oauth": true
+        },
+        "getaccectAgc": {
+            "dataType": "json",
+            "url": "/org/accectAgc",
+            "oauth": true
+        },
+        "declareOrg": {
+            "dataType": "json",
+            "url": "/org/declareOrg",
+            "oauth": true
+        },
+        "getOrganizationByTradeCode": {
+            "dataType": "json",
+            "url": "/org/getOrgByTradeCode",
+            "oauth": true
+        },
+        "getOrgByTradeCodeChange": {
+            "dataType": "json",
+            "url": "/org/getOrgByTradeCodeChange",
+            "oauth": true
+        },
+        "getOrgByOrgCode": {
+            "dataType": "json",
+            "url": "/org/getOrgByOrgCode1",
+            "oauth": true
+        },
+        "getCsgOrg": {
+            "dataType": "json",
+            "url": "/org/getCsgOrg",
+            "oauth": true
+        },
+        "getProOrg": {
+            "dataType": "json",
+            "url": "/org/getProOrg",
+            "oauth": true
+        },
+        "getAgencyOrganizationAll": {
+            "dataType": "json",
+            "url": "/org/getAgencyOrganizationAll",
+            "oauth": true
+        },
+        "getOrgrelationByOrgId": {
+            "dataType": "json",
+            "url": "/org/getOrgrelationByOrgId",
+            "oauth": true
+        },
+        "saveDeclareCustomerInfo": {
+            "dataType": "json",
+            "url": "/bondInvt/saveDeclareCustomerInfo",
+            "oauth": true
+        },
+        "bondInvtGetBondInvtStatus": {
+            "dataType": "json",
+            "url": "/bondInvt/getBondInvtStatus",
+            "oauth": true
+        },
+        "bondInvtListGetBondInvtDtListPage": {
+            "dataType": "json",
+            "url": "/bondInvt/list/getBondInvtDtListPage",
+            "oauth": true
+        },
+        "delectDeclareCustomerInfo": {
+            "dataType": "json",
+            "url": "/bondInvt/deleteDeclareCustomerInfo",
+            "oauth": true
+        },
+        "findDeclareCustomerInfo": {
+            "dataType": "json",
+            "url": "/bondInvt/findDeclareCustomerInfo",
+            "oauth": true
+        },
+        "bondInvtinventoryinitOpeningInventory": {
+            "dataType": "json",
+            "url": "/bondInvt/inventory/initOpeningInventory",
+            "oauth": true
+        },
+        "bondInvtGetBondInvtDtByGdsSeqno": {
+            "dataType": "json",
+            "url": "/bondInvt/getBondInvtDtByGdsSeqno",
+            "oauth": true
+        },
+        "bondInvtModifyModify": {
+            "dataType": "json",
+            "url": "/bondInvt/modify/modify",
+            "oauth": true
+        },
+        "bondInvtModifyModifyDeleteBondInvt": {
+            "dataType": "json",
+            "url": "/bondInvt/modify/modifyDeleteBondInvt",
+            "oauth": true
+        },
+        "bondInvtListGetBondInvtDt": {
+            "dataType": "json",
+            "url": "/bondInvt/list/getBondInvtDt",
+            "oauth": true
+        },
+
+
+
+
+
+        "queryComplex": {
+            "dataType": "json",
+            "url": "/param/getComplexList",
+            "oauth": true
+        },
+        "oneComplex": {
+            "dataType": "json",
+            "url": "/param/getComplexDetailFront",
+            "oauth": true
+        },
+        "paramModifyGdecdGetList": {
+            "dataType": "json",
+            "url": "/param/modifyGdecd/getList",
+            "oauth": true
+        },
+        "paramModifyGdecdGetDetail": {
+            "dataType": "json",
+            "url": "/param/modifyGdecd/getDetail",
+            "oauth": true
+        },
+        "queryCurr": {
+            "dataType": "json",
+            "url": "/param/getCurrList",
+            "oauth": true
+        },
+        "queryTradeMode": {
+            "dataType": "json",
+            "url": "/param/getTradeModeList",
+            "oauth": true
+        },
+        "queryTransf": {
+            "dataType": "json",
+            "url": "/param/getTransfList",
+            "oauth": true
+        },
+        "queryTransac": {
+            "dataType": "json",
+            "url": "/param/getTransacList",
+            "oauth": true
+        },
+        "queryCustom": {
+            "dataType": "json",
+            "url": "/param/getCustomList",
+            "oauth": true
+        },
+        "queryDistrict": {
+            "dataType": "json",
+            "url": "/param/getDistrictList",
+            "oauth": true
+        },
+        "queryCountry": {
+            "dataType": "json",
+            "url": "/param/getCountryList",
+            "oauth": true
+        },
+        "queryUnit": {
+            "dataType": "json",
+            "url": "/param/getUnitList",
+            "oauth": true
+        },
+        "getPortstdList": {
+            "dataType": "json",
+            "url": "/param/getPortstdList",
+            "oauth": true
+        },
+        "getLevytypeList": {
+            "dataType": "json",
+            "url": "/param/getLevytypeList",
+            "oauth": true
+        },
+        "queryRole": {
+            "dataType": "file",
+            "url": "/authority/role/listByPage",
+            "oauth": true
+        },
+        "addRole": {
+            "dataType": "file",
+            "url": "/authority/role/add",
+            "oauth": true
+        },
+        "updateRole": {
+            "dataType": "file",
+            "url": "/authority/role/update",
+            "oauth": true
+        },
+        "delRole": {
+            "dataType": "file",
+            "url": "/authority/role/deletes",
+            "oauth": true
+        },
+        "queryUserRole": {
+            "dataType": "file",
+            "url": "/authority/empRoleSet/list",
+            "oauth": true
+        },
+        "readUserRole": {
+            "dataType": "file",
+            "url": "/authority/empRoleSet/readEmpRoles",
+            "oauth": true
+        },
+        "addUserRole": {
+            "dataType": "file",
+            "url": "/authority/empRoleSet/updateEmpRoles",
+            "oauth": true
+        },
+        "queryAuthority": {
+            "dataType": "file",
+            "url": "/authority/menu/listByPage",
+            "oauth": true
+        },
+        "addAuthority": {
+            "dataType": "file",
+            "url": "/authority/menu/add",
+            "oauth": true
+        },
+        "getAuthority": {
+            "dataType": "file",
+            "url": "/authority/menu/get",
+            "oauth": true
+        },
+        "updateAuthority": {
+            "dataType": "file",
+            "url": "/authority/menu/update",
+            "oauth": true
+        },
+        "delAuthority": {
+            "dataType": "file",
+            "url": "/authority/menu/deletes",
+            "oauth": true
+        },
+        "queryRoleAuthority": {
+            "dataType": "file",
+            "url": "/authority/roleMenuSet/list",
+            "oauth": true
+        },
+        "getRoleAuthority": {
+            "dataType": "file",
+            "url": "/authority/roleMenuSet/readRoleMenus",
+            "oauth": true
+        },
+        "saveRoleAuthority": {
+            "dataType": "file",
+            "url": "/authority/roleMenuSet/updateRoleMenus",
+            "oauth": true
+        },
+        "getMenu": {
+            "dataType": "file",
+            "url": "/authority/menu/getMenuTree",
+            "oauth": true
+        },
+        "getOrgList": {
+            "dataType": "file",
+            "url": "/authority/orgTypeMenuSet/list",
+            "oauth": true
+        },
+        "getOrgTree": {
+            "dataType": "file",
+            "url": "/authority/orgTypeMenuSet/readOrgTypeMenus",
+            "oauth": true
+        },
+        "saveOrgTree": {
+            "dataType": "file",
+            "url": "/authority/orgTypeMenuSet/updateOrgTypeMenus",
+            "oauth": true
+        },
+
+
+        "queryExchangeRate": {
+            "dataType": "json",
+            "url": "/param/getExchangeRateList",
+            "oauth": true
+        },
+        "queryWraptypeList": {
+            "dataType": "json",
+            "url": "/param/getWraptypeList",
+            "oauth": true
+        },
+        "getProcessList": {
+            "dataType": "json",
+            "url": "/param/getProcessList",
+            "oauth": true
+        },
+        "emsListGetEmsDt": {
+            "dataType": "json",
+            "url": "/ems/list/getEmsDt",
+            "oauth": true
+        },
+        "emsGdecdDeclare": {
+            "dataType": "json",
+            "url": "/ems/gdecd/declare",
+            "oauth": true
+        },
+        "emsArticifalGdecdMerge": {
+            "dataType": "json",
+            "url": "/ems/articifalGdecd/merge",
+            "oauth": true
+        },
+        "emsArticifalGdecdCheck": {
+            "dataType": "json",
+            "url": "/ems/articifalGdecd/check",
+            "oauth": true
+        },
+        "emsArticifalGdecdDelete": {
+            "dataType": "json",
+            "url": "/ems/articifalGdecd/delete",
+            "oauth": true
+        },
+        "queryBookno": {
+            "dataType": "json",
+            "url": "/ems/getList",
+            "oauth": true
+        },
+        "emsPreNoDeclare": {
+            "dataType": "json",
+            "url": "/ems/pre/noDeclare",
+            "oauth": true
+        },
+        "emsPreGetList": {
+            "dataType": "json",
+            "url": "/ems/pre/getList",
+            "oauth": true
+        },
+        "emsPreSetPriority": {
+            "dataType": "json",
+            "url": "/ems/pre/setPriority",
+            "oauth": true
+        },
+        "emsPreFindModifyGdecdRecord": {
+            "dataType": "json",
+            "url": "/ems/pre/findModifyGdecdRecord",
+            "oauth": true
+        },
+        "emsArticifalGdecdSave": {
+            "dataType": "json",
+            "url": "/ems/articifalGdecd/save",
+            "oauth": true
+        },
+        "emsArticifalGdecdGetList": {
+            "dataType": "json",
+            "url": "/ems/articifalGdecd/getList",
+            "oauth": true
+        },
+        "arcrpCheckGdecd": {
+            "dataType": "json",
+            "url": "/arcrp/checkGdecd",
+            "oauth": true
+        },
+        "importEms": {
+            "dataType": "file",
+            "url": "/ems/import",
+            "oauth": true
+        },
+        "getEmsputrecDt": {
+            "dataType": "json",
+            "url": "/ems/getEmsputrecDt",
+            "oauth": true
+        },
+        "deleteEmsputrec": {
+            "dataType": "json",
+            "url": "/ems/delete",
+            "oauth": true
+        },
+        "queryEmsPutrecInfo": {
+            "dataType": "json",
+            "url": "/ems/getDetail",
+            "oauth": true
+        },
+        "addEmsPutrecBsc": {
+
+            "method": "post",
+            "url": "/ems/init",
+            "oauth": true
+
+        },
+        "insertEmsPutrec": {
+            "dataType": "json",
+            "url": "/ems/save",
+            "oauth": true
+
+        },
+        "updateEmsPutrec": {
+            "dataType": "json",
+            "url": "/ems/update",
+            "oauth": true
+
+        },
+        "declareEmsputrec": {
+            "dataType": "json",
+            "url": "/ems/declare",
+            "oauth": true
+        },
+        "getBwsDt": {
+            "dataType": "json",
+            "url": "/bws/getBwsDt",
+            "oauth": true
+        },
+        "queryBusinessDeclare": {
+            "dataType": "json",
+            "url": "/sasDeclare/getList",
+            "oauth": true
+
+        },
+        "queryUseTo": {
+            "dataType": "json",
+            "url": "/param/getUseToList",
+            "oauth": true
+        },
+        "queryLevymode": {
+            "dataType": "json",
+            "url": "/param/getLevymodeList",
+            "oauth": true
+        },
+        "getSasDclDetail": {
+            "dataType": "json",
+            "url": "/sasDeclare/getDetail",
+            "oauth": true
+
+        },
+        "deleteSasDclTable": {
+            "dataType": "json",
+            "url": "/sasDeclare/delete",
+            "oauth": true
+
+        },
+        "modifySasDclTable": {
+            "dataType": "json",
+            "url": "/sasDeclare/modify",
+            "oauth": true
+
+        },
+        "declareSasDclTable": {
+            "dataType": "json",
+            "url": "/sasDeclare/declare",
+            "oauth": true
+
+        },
+        "updateSasDclTable": {
+            "dataType": "json",
+            "url": "/sasDeclare/update",
+            "oauth": true
+
+        },
+        "addSasDclTable": {
+            "dataType": "json",
+            "url": "/sasDeclare/save",
+            "oauth": true
+        },
+        "finalSasDclTable": {
+            "dataType": "json",
+            "url": "/sasDeclare/final",
+            "oauth": true
+        },
+        "sasDclTableGetValue": {
+            "dataType": "json",
+            "url": "/sasDeclare/getValue",
+            "oauth": true
+        },
+        "importSasDclTable": {
+            "dataType": "file",
+            "url": "/sasDeclare/import",
+            "oauth": true
+        },
+        "getSasDclDtBySeqno": {
+            "dataType": "json",
+            "url": "/sasDeclare/getSasDclDtBySeqno",
+            "oauth": true
+        },
+        "getDtList": {
+            "dataType": "json",
+            "url": "/sasDeclare/getDtList",
+            "oauth": true
+        },
+        "nonbondGetList": {
+            "dataType": "json",
+            "url": "/nonbond/getList",
+            "oauth": true
+        },
+        "nonbondSave": {
+            "dataType": "json",
+            "url": "/nonbond/save",
+            "oauth": true
+        },
+        "nonbondUpdate": {
+            "dataType": "json",
+            "url": "/nonbond/update",
+            "oauth": true
+        },
+        "nonbondDeclare": {
+            "dataType": "json",
+            "url": "/nonbond/declare",
+            "oauth": true
+        },
+        "nonbondgetDetail": {
+            "dataType": "json",
+            "url": "/nonbond/getDetail",
+            "oauth": true
+        },
+        "nonbondDelete": {
+            "dataType": "json",
+            "url": "/nonbond/delete",
+            "oauth": true
+        },
+        "nonbondUseless": {
+            "dataType": "json",
+            "url": "/nonbond/useless",
+            "oauth": true
+        },
+        "outAllocationSave": {
+            "dataType": "json",
+            "url": "/nonbond/out/save",
+            "oauth": true
+        },
+        "outAllocationUpdate": {
+            "dataType": "json",
+            "url": "/nonbond/out/update",
+            "oauth": true
+        },
+        "outAllocationGetList": {
+            "dataType": "json",
+            "url": "/nonbond/out/getList",
+            "oauth": true
+        },
+        "outAllocationGetDetail": {
+            "dataType": "json",
+            "url": "/nonbond/out/getDetail",
+            "oauth": true
+        },
+        "outAllocationGetDtListByNo": {
+            "dataType": "json",
+            "url": "/nonbond/out/getDtListByNo",
+            "oauth": true
+        },
+        "outAllocationDelete": {
+            "dataType": "json",
+            "url": "/nonbond/out/delete",
+            "oauth": true
+        },
+        "outAllocationDeclare": {
+            "dataType": "json",
+            "url": "/nonbond/out/declare",
+            "oauth": true
+        },
+        "outAllocationModify": {
+            "dataType": "json",
+            "url": "/nonbond/out/modify",
+            "oauth": true
+        },
+        "outAllocationUseless": {
+            "dataType": "json",
+            "url": "/nonbond/out/useless",
+            "oauth": true
+        },
+        "bwsPreGetList": {
+            "dataType": "json",
+            "url": "/bws/pre/getList",
+            "oauth": true
+        },
+        "bwsPreGetDetail": {
+            "dataType": "json",
+            "url": "/bws/pre/getDetail",
+            "oauth": true
+        },
+        "bwsPreGetFBwsNo": {
+            "dataType": "json",
+            "url": "/bws/pre/getFBwsNo",
+            "oauth": true
+        },
+        "bwsPreListGetBwsDt": {
+            "dataType": "json",
+            "url": "/bws/pre/list/getBwsDt",
+            "oauth": true
+        },
+
+
+        "fileUpload": {
+            "dataType": "file",
+            "url": "/tool/file/upload",
+            "oauth": true
+        },
+        "fileUpdate": {
+            "dataType": "json",
+            "url": "/tool/file/update",
+            "oauth": true
+        },
+        "fileDelete": {
+            "dataType": "json",
+            "url": "/tool/file/delete",
+            "oauth": true
+        },
+        "getFile": {
+            "dataType": "json",
+            "url": "/tool/file/getList",
+            "oauth": true
+        },
+        "getImportList": {
+            "dataType": "json",
+            "url": "/tool/import/getList",
+            "oauth": true
+        },
+        "queryLogisticsBookInfo": {
+            "dataType": "json",
+            "url": "/bws/getList",
+            "oauth": true
+
+        },
+        "bwslistGetBwsDt": {
+            "dataType": "json",
+            "url": "/bws/list/getBwsDt",
+            "oauth": true
+        },
+        "importBws": {
+            "dataType": "file",
+            "url": "/bws/import",
+            "oauth": true
+        },
+        "importSasCmb": {
+            "dataType": "file",
+            "url": "/sasCmb/import",
+            "oauth": true
+        },
+        "queryLogisticsBookInfos": {
+            "dataType": "json",
+            "url": "/bws/getListS",
+            "oauth": true
+
+        },
+        "getLogisticsById": {
+            "dataType": "json",
+            "url": "/bws/getDetail",
+            "oauth": true
+
+        },
+        "logisticsBookUpdate": {
+            "dataType": "json",
+            "url": "/bws/update",
+            "oauth": true
+
+        },
+        "addLogistics": {
+            "dataType": "json",
+            "url": "/bws/save",
+            "oauth": true
+
+        },
+        "addLogisticsInit": {
+            "dataType": "json",
+            "url": "/bws/init",
+            "oauth": true
+        },
+        "addLogisticsInits": {
+            "dataType": "json",
+            "url": "/bws/initS",
+            "oauth": true
+        },
+        "deleteLogistics": {
+            "dataType": "json",
+            "url": "/bws/delete",
+            "oauth": true
+
+        },
+        "declareLogistics": {
+            "dataType": "json",
+            "url": "/bws/declare",
+            "oauth": true
+
+        },
+        "findBondInvtPage": {
+            "dataType": "json",
+            "url": "/bondInvt/getList",
+            "oauth": true
+        },
+        "setDeclareCustomer": {
+            "dataType": "json",
+            "url": "/bondInvt/setDeclareCustomer",
+            "oauth": true
+        },
+        "bondInvtClearAppl": {
+            "dataType": "json",
+            "url": "/bondInvt/clearAppl",
+            "oauth": true
+        },
+        "findBondInvtInfo": {
+            "dataType": "json",
+            "url": "/bondInvt/getDetail",
+            "oauth": true
+
+        },
+        "getBondInvtDt": {
+            "dataType": "json",
+            "url": "/bondInvt/getBondInvtDt",
+            "oauth": true
+        },
+        "getRtlList": {
+            "dataType": "json",
+            "url": "/sasPassport/getRtlList",
+            "oauth": true
+        },
+        "sasPassportGetStatusList": {
+            "dataType": "json",
+            "url": "/sasPassport/getStatusList",
+            "oauth": true
+        },
+        "sasPassportGetListByCarPooling": {
+            "dataType": "json",
+            "url": "/sasPassport/getListByCarPooling",
+            "oauth": true
+        },
+        "isSpareXml": {
+            "dataType": "json",
+            "url": "/bondInvt/xml",
+            "oauth": true
+
+        },
+
+        "bondInvtImport": {
+            "dataType": "file",
+            "url": "/bondInvt/import",
+            "oauth": true
+
+        },
+        "insertBondInvt": {
+            "dataType": "json",
+            "url": "/bondInvt/save",
+            "oauth": true
+
+        },
+        "updateBondInvt": {
+            "dataType": "json",
+            "url": "/bondInvt/update",
+            "oauth": true
+        },
+        "deleteBondInvt": {
+            "dataType": "json",
+            "url": "/bondInvt/delete",
+            "oauth": true
+
+        },
+        "declareBondInvt": {
+            "dataType": "json",
+            "url": "/bondInvt/declare",
+            "oauth": true
+
+        },
+        "getSasStockByPage": {
+            "dataType": "json",
+            "url": "/stock/getList",
+            "oauth": true
+        },
+        "stockGetReplaceList": {
+            "dataType": "json",
+            "url": "/stock/getReplaceList",
+            "oauth": true
+        },
+        "stockGetDetilByNo": {
+            "dataType": "json",
+            "url": "/stock/getDetilByNo",
+            "oauth": true
+        },
+        "getSassStockByPageNote": {
+            "dataType": "json",
+            "url": "/stock/getStockList",
+            "oauth": true
+        },
+        "getStockDetil": {
+            "dataType": "json",
+            "url": "/stock/getDetail",
+            "oauth": true
+
+        },
+        "saveSasStock": {
+            "dataType": "json",
+            "url": "/stock/save",
+            "oauth": true
+
+        },
+        "deleteSasStocks": {
+            "dataType": "json",
+            "url": "/stock/delete",
+            "oauth": true
+
+        },
+        "updateSasStock": {
+            "dataType": "json",
+            "url": "/stock/update",
+            "oauth": true
+
+        },
+        "declare": {
+            "dataType": "json",
+            "url": "/stock/declare",
+            "oauth": true
+        },
+        "useless": {
+            "dataType": "json",
+            "url": "/stock/useless",
+            "oauth": true
+        },
+        "stockModify": {
+            "dataType": "json",
+            "url": "/stock/modify",
+            "oauth": true
+        },
+        "getStockData": {
+            "dataType": "json",
+            "url": "/stock/getStockData",
+            "oauth": true
+        },
+        "getReplaceList": {
+            "dataType": "json",
+            "url": "/stock/getReplaceList",
+            "oauth": true
+        },
+        "getReplaceData": {
+            "dataType": "json",
+            "url": "/stock/getReplaceData",
+            "oauth": true
+        },
+        "getReplaceBySeq": {
+            "dataType": "json",
+            "url": "/stock/getReplaceBySeq",
+            "oauth": true
+        },
+        "importStock": {
+            "dataType": "file",
+            "url": "/stock/import",
+            "oauth": true
+        },
+        "getStockStatus": {
+            "dataType": "json",
+            "url": "/stock/getStockStatus",
+            "oauth": true
+        },
+        "declareSasPpBsc": {
+            "dataType": "json",
+            "url": "/sasPassport/declare",
+            "oauth": true
+
+        },
+        "importsas": {
+            "dataType": "file",
+            "url": "/sasPassport/import",
+            "oauth": true
+
+        },
+        "discardSasPpBsc": {
+            "dataType": "json",
+            "url": "/sasPassport/useless",
+            "oauth": true
+
+        },
+        "getSasPpBscAll": {
+            "dataType": "json",
+            "url": "/sasPassport/getList",
+            "oauth": true
+
+        },
+        "addSasPpBsc": {
+            "dataType": "json",
+            "url": "/sasPassport/save",
+            "oauth": true
+
+        },
+        "updateSasPpBsc": {
+            "dataType": "json",
+            "url": "/sasPassport/update",
+            "oauth": true
+
+        },
+        "getSasPpBscDetail": {
+            "dataType": "json",
+            "url": "/sasPassport/getDetail",
+            "oauth": true
+
+        },
+        "deleteSasPpBsc": {
+            "dataType": "json",
+            "url": "/sasPassport/delete",
+            "oauth": true
+
+        },
+        "addGrtGasr": {
+            "dataType": "json",
+            "url": "/grt/saveGlb",
+            "oauth": true
+
+        },
+        "updateGrtGasr": {
+            "dataType": "json",
+            "url": "/grt/updateGlb",
+            "oauth": true
+
+        },
+        "getGrtGasrByPage": {
+            "dataType": "json",
+            "url": "/grt/getGlbList",
+            "oauth": true
+
+        },
+        "deleteGrtGasr": {
+            "dataType": "json",
+            "url": "/grt/deleteGlb",
+            "oauth": true
+
+        },
+        "getGrtGasrById": {
+            "dataType": "json",
+            "url": "/grt/getGlbDetail",
+            "oauth": true
+
+        },
+        "changeGlb": {
+            "dataType": "json",
+            "url": "/grt/changeGlb",
+            "oauth": true
+        },
+        "declareGrtGasr": {
+            "dataType": "json",
+            "url": "/grt/declareGlb",
+            "oauth": true
+
+        },
+        "getDeclareGrc": {
+            "dataType": "json",
+            "url": "/grt/declareGrc",
+            "oauth": true
+
+        },
+        "getDeclareGdlb": {
+            "dataType": "json",
+            "url": "/grt/declareGdlb",
+            "oauth": true
+
+        },
+        "getGrtDpstById": {
+            "dataType": "json",
+            "url": "/grt/getGdlbDetail",
+            "oauth": true
+
+        },
+        "updateGrtDpst": {
+            "dataType": "json",
+            "url": "/grt/updateGdlb",
+            "oauth": true
+
+        },
+        "deleteGrtDpst": {
+            "dataType": "json",
+            "url": "/grt/deleteGdlb",
+            "oauth": true
+
+        },
+        "getGrtDpstByPage": {
+            "dataType": "json",
+            "url": "/grt/getGdlbList",
+            "oauth": true
+
+        },
+        "addGrtDpst": {
+            "dataType": "json",
+            "url": "/grt/saveGdlb",
+            "oauth": true
+
+        },
+        "addGrtRtnbk": {
+            "dataType": "json",
+            "url": "/grt/saveGrc",
+            "oauth": true
+
+        },
+        "getByGurno": {
+            "dataType": "json",
+            "url": "/grt/getByGurNo",
+            "oauth": true
+        },
+        "updateGrtRtnbk": {
+            "dataType": "json",
+            "url": "/grt/updateGrc",
+            "oauth": true
+
+        },
+        "deleteGrtRtnbk": {
+            "dataType": "json",
+            "url": "/grt/deleteGrc",
+            "oauth": true
+
+        },
+        "getGrtRtnbkByPage": {
+            "dataType": "json",
+            "url": "/grt/getGrcList",
+            "oauth": true
+
+        },
+        "getGrtRtnbkById": {
+            "dataType": "json",
+            "url": "/grt/getGrcDetail",
+            "oauth": true
+        },
+        "findAllMsg": {
+            "dataType": "file",
+            "url": "/notice/readNotice/getUserNotices",
+            "oauth": true
+        },
+        "findUnreadMsg": {
+            "dataType": "file",
+            "url": "/notice/readNotice/getUnreadNotices",
+            "oauth": true
+        },
+        "detailsMsg": {
+            "dataType": "file",
+            "url": "/notice/readNotice/getOneNoticeById",
+            "oauth": true
+        },
+        "downLoadFile": {
+            "dataType": "file",
+            "url": "/notice/noticeAttachment/download",
+            "oauth": true
+        },
+        "saveUserMsg": {
+            "dataType": "file",
+            "url": "/notice/readNotice/saveReadLog",
+            "oauth": true
+        },
+        "messageAdd": {
+            "dataType": "json",
+            "url": "/notice/noticeSet/getNoticeSetSeq",
+            "oauth": true
+        },
+        "queryTrade": {
+            "dataType": "json",
+            "url": "/notice/noticeSet/getTradecodeList",
+            "oauth": true
+        },
+        "saveMessage": {
+            "dataType": "file",
+            "url": "/notice/noticeSet/save",
+            "oauth": true
+        },
+        "uploadFile": {
+            "dataType": "file",
+            "url": "/notice/noticeAttachment/upLoad",
+            "oauth": true
+        },
+        "downloadFile": {
+            "dataType": "json",
+            "url": "/tool/file/downloadFile",
+            "oauth": true
+        },
+        "getFileList": {
+            "dataType": "file",
+            "url": "/notice/noticeAttachment/getAttachmentList",
+            "oauth": true
+        },
+        "queryNotices": {
+            "dataType": "file",
+            "url": "/notice/noticeSet/noticeListByPage",
+            "oauth": true
+        },
+        "deleteNotices": {
+            "dataType": "file",
+            "url": "/notice/noticeSet/deletes",
+            "oauth": true
+        },
+        "fileList": {
+            "dataType": "file",
+            "url": "/notice/noticeAttachment/getAttachmentList",
+            "oauth": true
+        },
+        "delectFile": {
+            "dataType": "file",
+            "url": "/notice/noticeAttachment/delete",
+            "oauth": true
+        },
+        "queryAllOrg": {
+            "dataType": "file",
+            "url": "/notice/noticeSet/getOrganizations",
+            "oauth": true
+        },
+        "chgoffGetList": {
+            "dataType": "json",
+            "url": "/chgoff/getList",
+            "oauth": true
+        },
+        "ChgoffByDt": {
+            "dataType": "json",
+            "url": "/chgoff/getChgoffByDt",
+            "oauth": true
+        },
+        "chgoffGetChgoffDtList": {
+            "dataType": "json",
+            "url": "/chgoff/getChgoffDtList",
+            "oauth": true
+        },
+        "chgoffGetChgoffInvtLtList": {
+            "dataType": "json",
+            "url": "/chgoff/getChgoffInvtLtList",
+            "oauth": true
+        },
+
+        "exportFile": {
+            "dataType": "json",
+            "url": "/tool/exportFile/save",
+            "oauth": true
+        },
+        "getWoFileList": {
+            "dataType": "json",
+            "url": "/wo/getFileList",
+            "oauth": true
+        },
+        "getWoList": {
+            "dataType": "json",
+            "url": "/wo/getWoList",
+            "oauth": true
+        },
+        "getWoDetail": {
+            "dataType": "json",
+            "url": "/wo/getWoDetail",
+            "oauth": true
+        },
+        "confirmCalc": {
+            "dataType": "json",
+            "url": "/wo/confirmCalc",
+            "oauth": true
+        },
+        "updateFile": {
+            "dataType": "json",
+            "url": "/wo/updateFile",
+            "oauth": true
+        },
+        "woInventoryGetInventoryList": {
+            "dataType": "json",
+            "url": "/wo/inventory/getInventoryList",
+            "oauth": true
+        },
+        "woInventoryGetInventoryByGdsSeqno": {
+            "dataType": "json",
+            "url": "/wo/inventory/getInventoryByGdsSeqno",
+            "oauth": true
+        },
+        "woOpeningGetList": {
+            "dataType": "json",
+            "url": "/wo/opening/getList",
+            "oauth": true
+        },
+        "woUpload": {
+            "dataType": "json",
+            "url": "/wo/upload",
+            "oauth": true
+        },
+        "woGetUploadStatus": {
+            "dataType": "json",
+            "url": "/wo/getUploadStatus",
+            "oauth": true
+        },
+        "chgoffInit": {
+            "dataType": "json",
+            "url": "/chgoff/init",
+            "oauth": true
+        },
+        "chgoffUpdate": {
+            "dataType": "json",
+            "url": "/chgoff/update",
+            "oauth": true
+        },
+        "chgoffSave": {
+            "dataType": "json",
+            "url": "/chgoff/save",
+            "oauth": true
+        },
+        "chgoffDetail": {
+            "dataType": "json",
+            "url": "/chgoff/getDetail",
+            "oauth": true
+        },
+        "chgoffGetDetail1": {
+            "dataType": "json",
+            "url": "/chgoff/getDetail1",
+            "oauth": true
+        },
+        "chgoffDelect": {
+            "dataType": "json",
+            "url": "/chgoff/delete",
+            "oauth": true
+        },
+        "chgoffDeclare": {
+            "dataType": "json",
+            "url": "/chgoff/declare",
+            "oauth": true
+        },
+        "chgoffCheck": {
+            "dataType": "json",
+            "url": "/chgoff/check",
+            "oauth": true
+        },
+        "getBscByEmsNo": {
+            "dataType": "json",
+            "url": "/ems/getBscByEmsNo",
+            "oauth": true
+        },
+        "bondInvtGetBscByBondInvtNo": {
+            "dataType": "json",
+            "url": "/bondInvt/getBscByBondInvtNo",
+            "oauth": true
+        },
+        "getEdiDetail": {
+            "dataType": "json",
+            "url": "/bondInvt/getEdiDetail",
+            "oauth": true
+        },
+        "chgoffImport": {
+            "dataType": "file",
+            "url": "/chgoff/import",
+            "oauth": true
+        },
+        "archivesInit": {
+            "dataType": "json",
+            "url": "/arcrp/init",
+            "oauth": true
+        },
+        "archivesSave": {
+            "dataType": "json",
+            "url": "/arcrp/save",
+            "oauth": true
+        },
+        "archivesGetList": {
+            "dataType": "json",
+            "url": "/arcrp/getList",
+            "oauth": true
+        },
+        "archivesGetDetail": {
+            "dataType": "json",
+            "url": "/arcrp/getDetail",
+            "oauth": true
+        },
+        "archivesUpdate": {
+            "dataType": "json",
+            "url": "/arcrp/update",
+            "oauth": true
+        },
+        "archivesDelete": {
+            "dataType": "json",
+            "url": "/arcrp/delete",
+            "oauth": true
+        },
+        "archivesDeclare": {
+            "dataType": "json",
+            "url": "/arcrp/declare",
+            "oauth": true
+        },
+        "archivesImport": {
+            "dataType": "file",
+            "url": "/arcrp/import",
+            "oauth": true
+        },
+        "archivesCheckGdecd": {
+            "dataType": "json",
+            "url": "/arcrp/checkGdecd",
+            "oauth": true
+        },
+        "sasCmbGetList": {
+            "dataType": "json",
+            "url": "/sasCmb/getList",
+            "oauth": true
+        },
+        "sasCmbSave": {
+            "dataType": "json",
+            "url": "/sasCmb/save",
+            "oauth": true
+        },
+        "sasCmbUpdate": {
+            "dataType": "json",
+            "url": "/sasCmb/update",
+            "oauth": true
+        },
+        "sasCmbDelete": {
+            "dataType": "json",
+            "url": "/sasCmb/delete",
+            "oauth": true
+        },
+        "sasCmbGetDetail": {
+            "dataType": "json",
+            "url": "/sasCmb/getDetail",
+            "oauth": true
+        },
+        "sasCmbDeclare": {
+            "dataType": "json",
+            "url": "/sasCmb/declare",
+            "oauth": true
+        },
+        "sasCmbModify": {
+            "dataType": "json",
+            "url": "/sasCmb/modify",
+            "oauth": true
+        },
+        "sasCmbUseless": {
+            "dataType": "json",
+            "url": "/sasCmb/useless",
+            "oauth": true
+        },
+        "toolHelpGetList": {
+            "dataType": "json",
+            "url": "/tool/help/getList",
+            "oauth": true
+        },
+        "carpoolAddCargoInfo": {
+            "dataType": "json",
+            "url": "/carpool/addCargoInfo",
+            "oauth": true
+        },
+        "carpoolGetTransList": {
+            "dataType": "json",
+            "url": "/carpool/getTransList",
+            "oauth": true
+        },
+        "carpoolGetDetail": {
+            "dataType": "json",
+            "url": "/carpool/getDetail",
+            "oauth": true
+        },
+        "carpoolGetList": {
+            "dataType": "json",
+            "url": "/carpool/getList",
+            "oauth": true
+        },
+        "carpoolCancelConsignor": {
+            "dataType": "json",
+            "url": "/carpool/cancelConsignor",
+            "oauth": true
+        },
+        "findOrganizationName": {
+            "dataType": "json",
+            "url": "/org/findOrganizationName",
+            "oauth": true
+        },
+        "orgQualifyGetOrgQual": {
+            "dataType": "json",
+            "url": "/org/qualify/getOrgQual",
+            "oauth": true
+        },
+        "carpoolRefuseCon": {
+            "dataType": "json",
+            "url": "/carpool/refuseCon",
+            "oauth": true
+        },
+        "changeTransOrg": {
+            "dataType": "json",
+            "url": "/carpool/changeTransOrg",
+            "oauth": true
+        },
+        "carpoolEdit": {
+            "dataType": "json",
+            "url": "/carpool/edit",
+            "oauth": true
+        },
+        "carpoolAddVehicle": {
+            "dataType": "json",
+            "url": "/carpool/addVehicle",
+            "oauth": true
+        },
+        "carpoolDeleteVehicle": {
+            "dataType": "json",
+            "url": "/carpool/deleteVehicle",
+            "oauth": true
+        },
+        "carpoolUpdateVehicle": {
+            "dataType": "json",
+            "url": "/carpool/updateVehicle",
+            "oauth": true
+        },
+        "carpoolVehicleList": {
+            "dataType": "json",
+            "url": "/carpool/vehicleList",
+            "oauth": true
+        },
+        "carpoolGetBillDetail": {
+            "dataType": "json",
+            "url": "/carpool/getBillDetail",
+            "oauth": true
+        },
+        "carpoolSaveCheckList": {
+            "dataType": "json",
+            "url": "/carpool/addCheckList",
+            "oauth": true
+        },
+        "carpoolChangeTransOrg": {
+            "dataType": "json",
+            "url": "/carpool/changeTransOrg",
+            "oauth": true
+        },
+        "carpoolGetNodealList": {
+            "dataType": "json",
+            "url": "/carpool/getNodealList",
+            "oauth": true
+        },
+        "mfbillGetdetail": {
+            "dataType": "file",
+            "url": "/mfbill/getdetail",
+            "oauth": true
+        },
+        "mfbillList": {
+            "dataType": "json",
+            "url": "/mfbill/list",
+            "oauth": true
+        },
+        "mfbillSave": {
+            "dataType": "json",
+            "url": "/mfbill/save",
+            "oauth": true
+        },
+        "mfbillUpdate": {
+            "dataType": "json",
+            "url": "/mfbill/update",
+            "oauth": true
+        },
+        "mfbillDelete": {
+            "dataType": "file",
+            "url": "/mfbill/delete",
+            "oauth": true
+        },
+        "mfbillSend": {
+            "dataType": "file",
+            "url": "/mfbill/send",
+            "oauth": true
+        },
+        "mfbillGetOwnerList": {
+            "dataType": "json",
+            "url": "/mfbill/getOwnerList",
+            "oauth": true
+        },
+        "mfbillOptlist": {
+            "dataType": "file",
+            "url": "/mfbill/optlist",
+            "oauth": true
+        },
+        "carpoolPackageListDeclare": {
+            "dataType": "json",
+            "url": "/carpool/packageListDeclare",
+            "oauth": true
+        },
+        "carpoolPackageListAll": {
+            "dataType": "json",
+            "url": "/carpool/packageListAll",
+            "oauth": true
+        },
+        "carpoolPackageListInfo": {
+            "dataType": "json",
+            "url": "/carpool/packageListInfo",
+            "oauth": true
+        },
+        "carpoolPdf": {
+            "dataType": "json",
+            "url": "/carpool/pdf",
+            "oauth": true
+        },
+        "carpoolInsertPackageList": {
+            "dataType": "json",
+            "url": "/carpool/insertPackageList",
+            "oauth": true
+        },
+        "carpoolDeletePackageListBsc": {
+            "dataType": "json",
+            "url": "/carpool/deletePackageListBsc",
+            "oauth": true
+        },
+        "carpoolUselessPackageListBsc": {
+            "dataType": "json",
+            "url": "/carpool/packageListAbolished",
+            "oauth": true
+        },
+        "easyPassportSave": {
+            "dataType": "json",
+            "url": "/easyPassport/save",
+            "oauth": true
+        },
+        "easyPassportGetList": {
+            "dataType": "json",
+            "url": "/easyPassport/getList",
+            "oauth": true
+        },
+        "easyPassportGetDetail": {
+            "dataType": "json",
+            "url": "/easyPassport/getDetail",
+            "oauth": true
+        },
+        "easyPassportUpdate": {
+            "dataType": "json",
+            "url": "/easyPassport/update",
+            "oauth": true
+        },
+        "easyPassportDelete": {
+            "dataType": "json",
+            "url": "/easyPassport/delete",
+            "oauth": true
+        },
+        "easyPassportDeclare": {
+            "dataType": "json",
+            "url": "/easyPassport/declare",
+            "oauth": true
+        },
+        "easyPassportUseless": {
+            "dataType": "json",
+            "url": "/easyPassport/useless",
+            "oauth": true
+        },
+        "getGdsTypecd": {
+            "dataType": "json",
+            "url": "/easyPassport/getGdsTypecd",
+            "oauth": true
+        },
+        "emlPutrecSave": {
+            "dataType": "json",
+            "url": "/emlPutrec/save",
+            "oauth": true
+        },
+        "emlPutrecUpdate": {
+            "dataType": "json",
+            "url": "/emlPutrec/update",
+            "oauth": true
+        },
+        "emlPutrecDeclare": {
+            "dataType": "json",
+            "url": "/emlPutrec/declare",
+            "oauth": true
+        },
+        "emlPutrecUseless": {
+            "dataType": "json",
+            "url": "/emlPutrec/useless",
+            "oauth": true
+        },
+        "emlPutrecModify": {
+            "dataType": "json",
+            "url": "/emlPutrec/modify",
+            "oauth": true
+        },
+        "emlPutrecFinal": {
+            "dataType": "json",
+            "url": "/emlPutrec/final",
+            "oauth": true
+        },
+        "emlPutrecDelete": {
+            "dataType": "json",
+            "url": "/emlPutrec/delete",
+            "oauth": true
+        },
+        "emlPutrecGetList": {
+            "dataType": "json",
+            "url": "/emlPutrec/getList",
+            "oauth": true
+        },
+        "emlPutrecGetDetail": {
+            "dataType": "json",
+            "url": "/emlPutrec/getDetail",
+            "oauth": true
+        },
+        "getDtBySeqno": {
+            "dataType": "json",
+            "url": "/emlPutrec/getDtBySeqno",
+            "oauth": true
+        },
+        "getUcnsDtBySeqno": {
+            "dataType": "json",
+            "url": "/emlPutrec/getUcnsDtBySeqno",
+            "oauth": true
+        },
+        "toolKickoutGetDetail": {
+            "dataType": "json",
+            "url": "/tool/kickout/getDetail",
+            "oauth": true
+        },
+        "autoExportSave": {
+            "dataType": "json",
+            "url": "/tool/autoExport/save",
+            "oauth": true
+        },
+        "autoExportDelete": {
+            "dataType": "json",
+            "url": "/tool/autoExport/delete",
+            "oauth": true
+        },
+        "getAutoTradeList": {
+            "dataType": "json",
+            "url": "/tool/autoExport/getAutoTradeList",
+            "oauth": true
+        },
+        "orgSupplierSave": {
+            "dataType": "json",
+            "url": "/org/supplier/save",
+            "oauth": true
+        },
+        "orgSupplierAccredit": {
+            "dataType": "json",
+            "url": "/org/supplier/accredit",
+            "oauth": true
+        },
+        "orgSupplierGetSupplierList": {
+            "dataType": "json",
+            "url": "/org/supplier/getSupplierList",
+            "oauth": true
+        },
+        "orgSupplierGetOrgList": {
+            "dataType": "json",
+            "url": "/org/supplier/getOrgList",
+            "oauth": true
+        },
+        "orgSupplierGetOrgSupplier": {
+            "dataType": "json",
+            "url": "/org/supplier/getOrgSupplier",
+            "oauth": true
+        },
+        "qualifySave": {
+            "dataType": "json",
+            "url": "/org/qualify/save",
+            "oauth": true
+        },
+        "qualifyUpdate": {
+            "dataType": "json",
+            "url": "/org/qualify/update",
+            "oauth": true
+        },
+        "qualifyGetList": {
+            "dataType": "json",
+            "url": "/org/qualify/getList",
+            "oauth": true
+        },
+        "qualifyGetDetail": {
+            "dataType": "json",
+            "url": "/org/qualify/getDetail",
+            "oauth": true
+        },
+        "qualifyDelete": {
+            "dataType": "json",
+            "url": "/org/qualify/delete",
+            "oauth": true
+        },
+        "qualifyDeclare": {
+            "dataType": "json",
+            "url": "/org/qualify/declare",
+            "oauth": true
+        },
+        "qualifyGetStatus": {
+            "dataType": "json",
+            "url": "/org/qualify/getStatus",
+            "oauth": true
+        },
+        "qualifyGetOrgQual": {
+            "dataType": "json",
+            "url": "/org/qualify/getOrgQual",
+            "oauth": true
+        },
+        "toolKickoutGetVersion": {
+            "dataType": "json",
+            "url": "/tool/kickout/getVersion",
+            "oauth": false
+        },
+        "lockGetPreMonWarSumList": {
+            "dataType": "json",
+            "url": "/lock/getPreMonWarSumList",
+            "oauth": true
+        },
+        "lockGetPreMonitorWarnList": {
+            "dataType": "json",
+            "url": "/lock/getPreMonitorWarnList",
+            "oauth": true
+        },
+        "lockUpdatePreMonWarStatus": {
+            "dataType": "json",
+            "url": "/lock/updatePreMonWarStatus",
+            "oauth": true
+        },
+        "authorityPayListByPage": {
+            "dataType": "file",
+            "url": "/authority/pay/listByPage",
+            "oauth": true
+        },
+        "lockOrgBillLockGetList": {
+            "dataType": "json",
+            "url": "/lock/orgBillLock/getList",
+            "oauth": true
+        },
+        "lockGetList": {
+            "dataType": "json",
+            "url": "/lock/orgLock/getList",
+            "oauth": true
+        },
+        "billDirDtSave": {
+            "dataType": "json",
+            "url": "/billDirBsc/save",
+            "oauth": true
+        },
+        "billDirDtUpdate": {
+            "dataType": "json",
+            "url": "/billDirBsc/save",
+            "oauth": true
+        },
+        "billDirDetail": {
+            "dataType": "json",
+            "url": "/billDirBsc/getDetail",
+            "oauth": true
+        },
+        "billDirDtDeclare": {
+            "dataType": "json",
+            "url": "/billDirBsc/declare",
+            "oauth": true
+        },
+        "pathBillOfladingInfoGetList": {
+            "dataType": "json",
+            "url": "/billDirBsc/getBillDirBscList",
+            "oauth": true
+        },
+        "deletePathBillOfladingInfo": {
+            "dataType": "json",
+            "url": "/billDirBsc/delete",
+            "oauth": true
+        },
+        "getDeclareBill": {
+            "dataType": "json",
+            "url": "/billDirBsc/getDeclareBill",
+            "oauth": true
+        },
+        "/billDirBscPDF": {
+            "dataType": "json",
+            "url": "/billDirBsc/billDirBscPDF",
+            "oauth": true
+        },
+        "pathBillDirExpBscInfoGetList": {
+            "dataType": "json",
+            "url": "/billDirBsc/getBillDirExpBscList",
+            "oauth": true
+        },
+        "deletePathBillDirExpBscInfoGetList": {
+            "dataType": "json",
+            "url": "/billDirBsc/deleteExp",
+            "oauth": true
+        },
+        "billDirExpDtSave": {
+            "dataType": "json",
+            "url": "/billDirBsc/saveExp",
+            "oauth": true
+        },
+        "billDirExpDtUpdate": {
+            "dataType": "json",
+            "url": "/billDirBsc/saveExp",
+            "oauth": true
+        },
+        "billDirExpDetail": {
+            "dataType": "json",
+            "url": "/billDirBsc/getDetailExp",
+            "oauth": true
+        },
+        "billDirExpDtDeclare": {
+            "dataType": "json",
+            "url": "/billDirBsc/declareExp",
+            "oauth": true
+        },
+        "MattergetList": {
+            "dataType": "json",
+            "url": "/backLog/getList",
+            "oauth": true
+        },
+        "MattergetSave": {
+            "dataType": "json",
+            "url": "/backLog/save",
+            "oauth": true
+        },
+        "MattergetAnnounce": {
+            "dataType": "json",
+            "url": "/backLog/announce",
+            "oauth": true
+        },
+        "MattergetDelete": {
+            "dataType": "json",
+            "url": "/backLog/delete",
+            "oauth": true
+        },
+        "tradeQualifysave": {
+            "dataType": "json",
+            "url": "/tradeQualify/tradeQualify/save",
+            "oauth": true
+        },
+        "tradeQualifyupdate": {
+            "dataType": "json",
+            "url": "/tradeQualify/tradeQualify/update",
+            "oauth": true
+        },
+        "tradeQualifydelete": {
+            "dataType": "json",
+            "url": "/tradeQualify/tradeQualify/delete",
+            "oauth": true
+        },
+        "tradeQualifydeclare": {
+            "dataType": "json",
+            "url": "/tradeQualify/tradeQualify/declare",
+            "oauth": true
+        },
+        "tradeQualifyfindOperationLog": {
+            "dataType": "json",
+            "url": "/tradeQualify/tradeQualify/findOperationLog",
+            "oauth": true
+        },
+        "tradeQualifyfindList": {
+            "dataType": "json",
+            "url": "/tradeQualify/tradeQualify/findList",
+            "oauth": true
+        },
+        "orgQualRtlsave": {
+            "dataType": "json",
+            "url": "/tradeQualify/orgQualRtl/save",
+            "oauth": true
+        },
+        "orgQualRtlupdate": {
+            "dataType": "json",
+            "url": "/tradeQualify/orgQualRtl/update",
+            "oauth": true
+        },
+        "orgQualRtldelete": {
+            "dataType": "json",
+            "url": "/tradeQualify/orgQualRtl/delete",
+            "oauth": true
+        },
+        "orgQualRtlfindList": {
+            "dataType": "json",
+            "url": "/tradeQualify/orgQualRtl/findList",
+            "oauth": true
+        },
+        "getQualifyByTradeCode": {
+            "dataType": "json",
+            "url": "/tradeQualify/tradeQualify/getQualifyByTradeCode",
+            "oauth": true
+        }
+
+    },
+    "get": {}
+   
+
+}

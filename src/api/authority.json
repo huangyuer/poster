@@ -1,0 +1,105 @@
+{
+  "post": {
+    "queryRole": {
+      "dataType": "file",
+      "url": "/authority/role/listByPage",
+      "oauth": true
+    },
+    "addRole": {
+      "dataType": "file",
+      "url": "/authority/role/add",
+      "oauth": true
+    },
+    "updateRole": {
+      "dataType": "file",
+      "url": "/authority/role/update",
+      "oauth": true
+    },
+    "delRole": {
+      "dataType": "file",
+      "url": "/authority/role/deletes",
+      "oauth": true
+    },
+    "queryUserRole": {
+      "dataType": "file",
+      "url": "/authority/empRoleSet/list",
+      "oauth": true
+    },
+    "readUserRole": {
+      "dataType": "file",
+      "url": "/authority/empRoleSet/readEmpRoles",
+      "oauth": true
+    },
+    "addUserRole": {
+      "dataType": "file",
+      "url": "/authority/empRoleSet/updateEmpRoles",
+      "oauth": true
+    },
+    "queryAuthority": {
+      "dataType": "file",
+      "url": "/authority/menu/listByPage",
+      "oauth": true
+    },
+    "addAuthority": {
+      "dataType": "file",
+      "url": "/authority/menu/add",
+      "oauth": true
+    },
+    "getAuthority": {
+      "dataType": "file",
+      "url": "/authority/menu/get",
+      "oauth": true
+    },
+    "updateAuthority": {
+      "dataType": "file",
+      "url": "/authority/menu/update",
+      "oauth": true
+    },
+    "delAuthority": {
+      "dataType": "file",
+      "url": "/authority/menu/deletes",
+      "oauth": true
+    },
+    "queryRoleAuthority": {
+      "dataType": "file",
+      "url": "/authority/roleMenuSet/list",
+      "oauth": true
+    },
+    "getRoleAuthority": {
+      "dataType": "file",
+      "url": "/authority/roleMenuSet/readRoleMenus",
+      "oauth": true
+    },
+    "saveRoleAuthority": {
+      "dataType": "file",
+      "url": "/authority/roleMenuSet/updateRoleMenus",
+      "oauth": true
+    },
+    "getMenu": {
+      "dataType": "file",
+      "url": "/authority/menu/getMenuTree",
+      "oauth": true
+    },
+    "getOrgList": {
+      "dataType": "file",
+      "url": "/authority/orgTypeMenuSet/list",
+      "oauth": true
+    },
+    "getOrgTree": {
+      "dataType": "file",
+      "url": "/authority/orgTypeMenuSet/readOrgTypeMenus",
+      "oauth": true
+    },
+    "saveOrgTree": {
+      "dataType": "file",
+      "url": "/authority/orgTypeMenuSet/updateOrgTypeMenus",
+      "oauth": true
+    },
+    "authorityPayListByPage": {
+      "dataType": "file",
+      "url": "/authority/pay/listByPage",
+      "oauth": true
+    }
+  },
+  "get": {}
+}

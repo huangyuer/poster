@@ -1,0 +1,48 @@
+{
+    "post": {
+      "drawfindlist": {
+        "dataType": "json",
+        "url": "/preIncrease/findList",
+        "oauth": true
+      },
+      "drawfindDetail": {
+        "dataType": "json",
+        "url": "/preIncrease/findDetail",
+        "oauth": true
+      },
+      "drawdelete": {
+        "dataType": "json",
+        "url": "/preIncrease/delete",
+        "oauth": true
+      },
+      "drawsave": {
+        "dataType": "json",
+        "url": "/preIncrease/save",
+        "oauth": true
+      },
+      "drawupdate": {
+        "dataType": "json",
+        "url": "/preIncrease/update",
+        "oauth": true
+      },
+      "findFieldMapping": {
+        "dataType": "json",
+        "url": "/preIncrease/findFieldMapping",
+        "oauth": true
+      },
+      "findValueMapping": {
+        "dataType": "json",
+        "url": "/preIncrease/findValueMapping",
+        "oauth": true
+      },
+      "saveMappingRelation": {
+        "dataType": "json",
+        "url": "/preIncrease/saveMappingRelation",
+        "oauth": true
+      }
+    },
+    "get": {
+      
+    }
+  }
+  

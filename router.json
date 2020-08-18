@@ -1,0 +1,635 @@
+{
+  "biz": {
+    "/operUserInfo": {
+      "icon": "android-menu",
+      "name": "用户查询",
+      "router": "OperUser/OperUserInfo"
+    },
+    "/operUserAdd": {
+      "icon": "android-menu",
+      "name": "用户添加",
+      "router": "OperUser/OperUserAdd"
+    },
+    "/operUserUpdate": {
+      "icon": "android-menu",
+      "name": "用户修改",
+      "router": "OperUser/OperUserUpdate"
+    },
+    "/enterpriseInfo": {
+      "icon": "android-menu",
+      "name": "企业信息查询",
+      "router": "Enterprise/EnterpriseInfo"
+    },
+    "/enterpriseAdd": {
+      "icon": "android-menu",
+      "name": "企业信息添加",
+      "router": "Enterprise/EnterpriseAdd"
+    },
+    "/enterpriseUpdate": {
+      "icon": "android-menu",
+      "name": "企业信息修改",
+      "router": "Enterprise/EnterpriseUpdate"
+    },
+    "/EnterpriseChange": {
+      "icon": "android-menu",
+      "name": "企业信息变更",
+      "router": "Enterprise/EnterpriseChange"
+    },
+    "/organizationInfo": {
+      "icon": "android-menu",
+      "name": "组织信息查询",
+      "router": "Organization/OrganizationInfo"
+    },
+    "/organizationAdd": {
+      "icon": "android-menu",
+      "name": "组织信息添加",
+      "router": "Organization/OrganizationAdd"
+    },
+    "/organizationUpdate": {
+      "icon": "android-menu",
+      "name": "组织信息修改",
+      "router": "Organization/OrganizationUpdate"
+    },
+    "/OrganizationChange": {
+      "icon": "android-menu",
+      "name": "组织信息变更",
+      "router": "Organization/OrganizationChange"
+    },
+    "/qualification": {
+      "icon": "android-menu",
+      "name": "资质管理",
+      "router": "Organization/Qualification"
+    }
+  },
+
+  "sys": {
+      
+    "/Qualificatinfo": {
+        "icon": "android-menu",
+        "name": "企业资质查询",
+        "router": "Quali/Qualificatinfo"
+      },
+      "/Qualificat": {
+        "icon": "android-menu",
+        "name": "企业资质管理",
+        "router": "Quali/Qualificat"
+      },
+    "/Organ": {
+        "icon": "android-menu",
+        "name": "组织资质管理",
+        "router": "Quali/Organ"
+      },
+    "/logisticsBookInfo": {
+      "icon": "android-menu",
+      "name": "仓储数据查询",
+      "router": "LogisticsBook/LogisticsBookInfo"
+    },
+    "/logisticsBookDtInfo": {
+      "icon": "android-menu",
+      "name": "仓储数据详情",
+      "router": "LogisticsBook/LogisticsBookDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/processingBooksInfo": {
+      "icon": "android-menu",
+      "name": "加工数据查询",
+      "router": "ProcessingBooks/ProcessingBooksInfo"
+    },
+    "/accountBookDetilInfo": {
+      "icon": "android-menu",
+      "name": "加工数据详情",
+      "router": "ProcessingBooks/AccountBookInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/equipmentBookInfo": {
+      "icon": "android-menu",
+      "name": "设备数据查询",
+      "router": "EquipmentBook/EquipmentBookInfo"
+    },
+    "/equipmentBookDtInfo": {
+      "icon": "android-menu",
+      "name": "设备数据详情",
+      "router": "EquipmentBook/EquipmentBookDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/woListInfo": {
+      "icon": "android-menu",
+      "name": "工单查询",
+      "router": "WorkOrder/WorkOrderInfo"
+    },
+    "/woListDtInfo": {
+      "icon": "android-menu",
+      "name": "工单详情",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      },
+      "router": "WorkOrder/WorkOrderDtInfo"
+    },
+    "/home": {
+      "icon": "home",
+      "name": "首页",
+      "router": "home"
+    },
+
+    "/queryComplex": {
+      "icon": "android-menu",
+      "name": "商品编码信息",
+      "router": "Parameter/ComplexInfo"
+    },
+    "/queryExchangeRate": {
+      "icon": "android-menu",
+      "name": "汇率表信息",
+      "router": "Parameter/ExchangeRateInfo"
+    },
+    "/queryTradeMode": {
+      "icon": "android-menu",
+      "name": "贸易方式信息",
+      "router": "Parameter/TradeModeInfo"
+    },
+    "/queryTransf": {
+      "icon": "android-menu",
+      "name": "运输方式信息",
+      "router": "Parameter/TransfInfo"
+    },
+    "/queryTransac": {
+      "icon": "android-menu",
+      "name": "成交方式信息",
+      "router": "Parameter/TransacInfo"
+    },
+    "/queryCustom": {
+      "icon": "android-menu",
+      "name": "关区信息",
+      "router": "Parameter/CustomInfo"
+    },
+    "/queryCurr": {
+      "icon": "android-menu",
+      "name": "币制表",
+      "router": "Parameter/CurrInfo"
+    },
+    "/queryCountry": {
+      "icon": "android-menu",
+      "name": "国家信息",
+      "router": "Parameter/CountryInfo"
+    },
+    "/queryUnit": {
+      "icon": "android-menu",
+      "name": "计量单位信息",
+      "router": "Parameter/UnitInfo"
+    },
+    "/queryDistrict": {
+      "icon": "android-menu",
+      "name": "境内目的地信息",
+      "router": "Parameter/DistrictInfo"
+    },
+    "/queryUseTo": {
+      "icon": "android-menu",
+      "name": "用途代码信息",
+      "router": "Parameter/UseToInfo"
+    },
+    "/queryLevymode": {
+      "icon": "android-menu",
+      "name": "征减免方式代码信息",
+      "router": "Parameter/Levymode"
+    },
+    "/queryDestinationPort": {
+      "icon": "android-menu",
+      "name": "港口代码信息",
+      "router": "Parameter/destinationPort"
+    },
+    "/queryCutMode": {
+      "icon": "android-menu",
+      "name": "减免性质信息",
+      "router": "Parameter/cutMode"
+    },
+    "/queryWraptypeList": {
+      "icon": "android-menu",
+      "name": "包装种类表",
+      "router": "Parameter/WrapTypeInfo"
+    },
+    "/queryProcessTypeList": {
+      "icon": "android-menu",
+      "name": "加工种类信息",
+      "router": "Parameter/processTypeInfo"
+    },
+    "/PathBillOfLadingInfo": {
+      "icon": "android-menu",
+      "name": "进境径予放行货物自主声明查询",
+      "router": "BillDir/PathBillOfladingInfo"
+    },
+    "/BillDirDtAdd": {
+      "icon": "android-menu",
+      "name": "进境径予放行货物自主声明生成",
+      "router": "BillDir/BillDirDtAdd"
+    },
+    "/BillDirDtUpdate": {
+      "icon": "android-menu",
+      "name": "进境径予放行货物自主声明修改",
+      "router": "BillDir/BillDirDtUpdate"
+    },
+    "/BillDirDtModify": {
+      "icon": "android-menu",
+      "name": "进境径予放行货物自主声明变更",
+      "router": "BillDir/BillDirDtModify"
+    },
+    "/BillDirDtInvalid": {
+      "icon": "android-menu",
+      "name": "进境径予放行货物自主声明作废",
+      "router": "BillDir/BillDirDtInvalid"
+    },
+    "/BillDirDtInfo": {
+      "icon": "android-menu",
+      "name": "进境径予放行货物自主声明明细",
+      "router": "BillDir/BillDirDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/PathBillDirExpBscInfo": {
+      "icon": "android-menu",
+      "name": "出境径予放行货物自主声明查询",
+      "router": "BillDirExp/PathBillDirExpBscInfo"
+    },
+    "/BillDirExpDtAdd": {
+      "icon": "android-menu",
+      "name": "出境径予放行货物自主声明生成",
+      "router": "BillDirExp/BillDirExpDtAdd"
+    },
+    "/BillDirExpDtInfo": {
+      "icon": "android-menu",
+      "name": "出境径予放行货物自主声明明细",
+      "router": "BillDirExp/BillDirExpDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/BillDirExpDtUpdate": {
+      "icon": "android-menu",
+      "name": "出境径予放行货物自主声明修改",
+      "router": "BillDirExp/BillDirExpDtUpdate"
+    },
+    "/BillDirExpDtModify": {
+      "icon": "android-menu",
+      "name": "出境径予放行货物自主声明-变更",
+      "router": "BillDirExp/BillDirExpDtModify"
+    },
+    "/CreditCardReceiptAdd": {
+      "icon": "android-menu",
+      "name": "卡口验放凭证生成",
+      "router": "CreditCardReceipt/CreditCardReceiptAdd"
+    },
+    "/CreditCardReceiptInfo": {
+      "icon": "android-menu",
+      "name": "卡口验放凭证查询",
+      "router": "CreditCardReceipt/CreditCardReceiptInfo"
+    },
+    "/CreditCardReceiptDtInfo": {
+      "icon": "android-menu",
+      "name": "卡口验放凭证明细",
+      "router": "CreditCardReceipt/CreditCardReceiptDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/CreditCardReceiptUpdate": {
+      "icon": "android-menu",
+      "name": "卡口验放凭证修改",
+      "router": "CreditCardReceipt/CreditCardReceiptUpdate"
+    },
+    "/WareHouseInfo": {
+      "icon": "android-menu",
+      "name": "进出区提发货凭证查询",
+      "router": "WareHouse/WareHouseInfo"
+    },
+    "/WareHouseAdd": {
+      "icon": "android-menu",
+      "name": "进出区提发货凭证生成",
+      "router": "WareHouse/WareHouseAdd"
+    },
+    "/WareHouseDtInfo": {
+      "icon": "android-menu",
+      "name": "进出区提发货凭证明细",
+      "router": "WareHouse/WareHouseDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/WareHouseUpdate": {
+      "icon": "android-menu",
+      "name": "进出区提发货凭证修改",
+      "router": "WareHouse/WareHouseUpdate"
+    },
+    "/WareHouseChange": {
+      "icon": "android-menu",
+      "name": "进出区提发货凭证变更",
+      "router": "WareHouse/WareHouseChange"
+    },
+    "/OutwardInfo": {
+      "icon": "android-menu",
+      "name": "耗料清单查询",
+      "router": "Material/OutwardInfo"
+    },
+    "/OutwardAdd": {
+      "icon": "android-menu",
+      "name": "耗料清单生成",
+      "router": "Material/OutwardAdd"
+    },
+    "/OutwardDtInfo": {
+      "icon": "android-menu",
+      "name": "耗料清单明细",
+      "router": "Material/OutwardDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/OutwardUpdate": {
+      "icon": "android-menu",
+      "name": "耗料清单修改",
+      "router": "Material/OutwardUpdate"
+    },
+    "/OutwardChange": {
+      "icon": "android-menu",
+      "name": "耗料清单变更",
+      "router": "Material/OutwardChange"
+    },
+    "/ImportBondedAdd": {
+      "icon": "android-menu",
+      "name": "进出境货物汇总生成",
+      "router": "ImportBonded/ImportBondedAdd",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/ImportBondedInfo": {
+      "icon": "android-menu",
+      "name": "进出境货物汇总查询",
+      "router": "ImportBonded/ImportBondedInfo"
+    },
+    "/ImportBondedDtInfo": {
+      "icon": "android-menu",
+      "name": "进出境货物明细",
+      "router": "ImportBonded/ImportBondedDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/ImportBondedupdate": {
+      "icon": "android-menu",
+      "name": "进出境货物修改",
+      "router": "ImportBonded/importBondedupdate",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/Todolist": {
+      "name": "待办事项查询",
+      "router": "Todolist/Todolist"
+    },
+    "/ItemEntry": {
+      "name": "待办事项生成",
+      "router": "Todolist/ItemEntry"
+    },
+    "/Details": {
+      "name": "待办事项详情",
+      "icon": "android-menu",
+      "router": "Todolist/Details",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/BaseGoodAdd": {
+      "icon": "android-menu",
+      "name": "货物信息生成",
+      "router": "BaseGood/BaseGoodAdd",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/BaseGoodInfo": {
+      "icon": "android-menu",
+      "name": "货物信息查询",
+      "router": "BaseGood/BaseGoodInfo"
+    },
+    "/BaseGoodUpdate": {
+      "icon": "android-menu",
+      "name": "货物信息修改",
+      "router": "BaseGood/BaseGoodUpdate"
+    },
+    "/BaseGoodDtInfo": {
+      "icon": "android-menu",
+      "name": "货物信息明细",
+      "router": "BaseGood/BaseGoodDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/importAdd": {
+      "icon": "android-menu",
+      "name": "出入库预增减生成",
+      "router": "draw/importAdd",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/importBondedInfodraw": {
+      "icon": "android-menu",
+      "name": "出入库预增减查询",
+      "router": "draw/ImportBondedInfodraw"
+    },
+    "/ImportBondedDtInfodraw": {
+      "icon": "android-menu",
+      "name": "出入库预增减明细",
+      "router": "draw/ImportBondedDtInfodraw",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/drawupdate": {
+      "icon": "android-menu",
+      "name": "出入库预增减修改",
+      "router": "draw/drawupdate"
+    },
+    "/drawsearch": {
+      "icon": "android-menu",
+      "name": "映射表查询",
+      "router": "draw/drawsearch"
+    },
+
+    "/drawsearchvalue": {
+      "icon": "android-menu",
+      "name": "映射值查询",
+      "router": "draw/drawsearchvalue"
+    },
+    "/indexdraw": {
+      "icon": "android-menu",
+      "name": "映射值查询",
+      "router": "draw/indexdraw"
+    },
+    "/drawvalue": {
+      "icon": "android-menu",
+      "name": "映射",
+      "router": "draw/drawvalue"
+    },
+    "/excelImport": {
+      "icon": "android-menu",
+      "name": "Excel导入",
+      "router": "FileExport/ExcelImport"
+    },
+    "/BayonetGeneration": {
+      "icon": "android-menu",
+      "name": "卡口验放凭证生成",
+      "router": "BayonetGeneration/port"
+    },
+    "/Confirmation": {
+      "icon": "android-menu",
+      "name": "进出库确认",
+      "router": "Confirmation/index"
+    },
+    "/ComfirmationDtInfo": {
+      "name": "进出库确认明细",
+      "router": "Confirmation/ComfirmationDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/AccessArea": {
+      "icon": "android-menu",
+      "name": "生成进出区提发货凭证",
+      "router": "AccessArea/index"
+    },
+    "/BusinessDeclarFromAdd": {
+      "icon": "android-menu",
+      "name": " 业务申报表生成",
+      "router": "BusinessDeclarFrom/BusinessDeclarFromAdd"
+    },
+    "/BusinessDeclarFromSearch": {
+      "icon": "android-menu",
+      "name": " 业务申报表查询",
+      "router": "BusinessDeclarFrom/BusinessDeclarFromSearch"
+    },
+    "/BusinessDeclarFromUpdate": {
+      "icon": "android-menu",
+      "name": " 业务申报表修改",
+      "router": "BusinessDeclarFrom/BusinessDeclarFromUpdate"
+    },
+    "/BusinessDeclarFromDtInfo": {
+      "icon": "android-menu",
+      "name": " 业务申报表明细",
+      "router": "BusinessDeclarFrom/BusinessDeclarFromDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/GuaranteeAdd": {
+      "icon": "android-menu",
+      "name": "生成保证金",
+      "router": "Guarantee/GuaranteeAdd"
+    },
+    "/GuaranteeSearch": {
+      "icon": "android-menu",
+      "name": "保证金查询",
+      "router": "Guarantee/GuaranteeSearch"
+    },
+    "/GuaranteeUpdate": {
+      "icon": "android-menu",
+      "name": "保证金修改",
+      "router": "Guarantee/GuaranteeUpdate"
+    },
+    "/GuaranteeDtInfo": {
+      "icon": "android-menu",
+      "name": "保证金查询明细",
+      "router": "Guarantee/GuaranteeDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/ToalGuaranteeAdd": {
+      "icon": "android-menu",
+      "name": "生成总担保",
+      "router": "ToalGuarantee/ToalGuaranteeAdd"
+    },
+    "/ToalGuaranteeSearch": {
+      "icon": "android-menu",
+      "name": "总担保查询",
+      "router": "ToalGuarantee/ToalGuaranteeSearch"
+    },
+    "/ToalGuaranteeUpdate": {
+      "icon": "android-menu",
+      "name": "总担保修改",
+      "router": "ToalGuarantee/ToalGuaranteeUpdate"
+    },
+    "/ToalGuaranteeDtInfo": {
+      "icon": "android-menu",
+      "name": "总担保查询明细",
+      "router": "ToalGuarantee/ToalGuaranteeDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/allNews": {
+      "icon": "android-menu",
+      "name": "消息中心",
+      "router": "personal/AllNews"
+    },
+    "/LoadingListInfo": {
+      "icon": "android-menu",
+      "name": "装车单查询",
+      "router": "LoadingList/LoadingListInfo"
+    },
+    "/LoadingListAdd": {
+      "icon": "android-menu",
+      "name": "装车单生成",
+      "router": "LoadingList/LoadingListAdd"
+    },
+    "/LoadingListDtInfo": {
+      "icon": "android-menu",
+      "name": "装车单详情",
+      "router": "LoadingList/LoadingListDtInfo",
+      "meta": {
+        "muti": true,
+        "mutiName": "id"
+      }
+    },
+    "/LoadingListUpdate": {
+      "icon": "android-menu",
+      "name": "装车单修改",
+      "router": "LoadingList/LoadingListUpdate"
+    },
+    "/temporary": {
+      "icon": "android-menu",
+      "name": "临时进出区拖拽",
+      "router": "temporary/index"
+    },
+    "/machining": {
+      "icon": "android-menu",
+      "name": "外发加工拖拽",
+      "router": "machining/index"
+    }
+  }
+}

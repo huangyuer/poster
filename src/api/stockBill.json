@@ -1,0 +1,40 @@
+{
+  "post": {
+    "getStockBillNolist": {
+      "dataType": "json",
+      "url": "/baseserver/stock/getList",
+      "oauth": true
+    },
+    "getStockBillNolistS": {
+      "dataType": "json",
+      "url": "/stockBill/getStockBillNo",
+      "oauth": true
+    },
+    "getStockBillGetDetails": {
+      "dataType": "json",
+      "url": "/baseserver/stock/getDetails",
+      "oauth": true
+    },
+    "getStockBillDragSaveBsc": {
+      "dataType": "json",
+      "url": "/wareHouse/dragSaveBsc",
+      "oauth": true
+    },
+    "getStockBillSaveByDrag": {
+      "dataType": "json",
+      "url": "/portRelease/saveByDrag",
+      "oauth": true
+    },
+    "getStockBillSaveBillAndWh": {
+      "dataType": "json",
+      "url": "/billDirBsc/saveBillAndWh",
+      "oauth": true
+    },
+    "getStockBillSaveBillExpAndWh": {
+      "dataType": "json",
+      "url": "/billDirBsc/saveBillExpAndWh",
+      "oauth": true
+    }
+  },
+  "get": {}
+}

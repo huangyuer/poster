@@ -1,0 +1,63 @@
+{
+    "post": {
+      "grtLgsagetList": {
+        "dataType": "json",
+        "url": "/grtlgsa/getList",
+        "oauth": true
+      },
+      "delLevyInv": {
+        "dataType": "json",
+        "url": "/grtlgsa/delLevyInv",
+        "oauth": true
+      },
+      "getLevyInvDetails": {
+        "dataType": "json",
+        "url": "/grtlgsa/getLevyInvDetails",
+        "oauth": true
+      },
+      "saveLevyInv": {
+        "dataType": "json",
+        "url": "/grtlgsa/saveLevyInv",
+        "oauth": true
+      },
+      "grtSaving":{
+        "dataType": "json",
+        "url": "/grtlgsa/grtSaving",
+        "oauth": true 
+      },
+      "grtDelete":{
+        "dataType": "json",
+        "url": "/grtlgsa/grtDelete",
+        "oauth": true 
+      },
+      "grtGetList":{
+        "dataType": "json",
+        "url": "/grtlgsa/grtGetList",
+        "oauth": true 
+      },
+      "selectGrtBsc":{
+        "dataType": "json",
+        "url": "/grtlgsa/selectGrtBsc",
+        "oauth": true 
+      },
+      "grtDeclare":{
+        "dataType": "json",
+        "url": "/grtlgsa/grtDeclare",
+        "oauth": true 
+      },
+      "declare":{
+        "dataType": "json",
+        "url": "/grtlgsa/declare",
+        "oauth": true 
+      },
+      "queryEnterprise1": {
+        "dataType": "json",
+        "url": "/org/getTradeList1",
+        "oauth": true
+    }
+    },
+    "get": {
+      
+    }
+  }
+  

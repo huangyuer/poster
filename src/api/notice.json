@@ -1,0 +1,83 @@
+{
+  "post": {"findAllMsg": {
+    "dataType": "file",
+    "url": "/notice/readNotice/getUserNotices",
+    "oauth": true
+  },
+  "findUnreadMsg": {
+    "dataType": "file",
+    "url": "/notice/readNotice/getUnreadNotices",
+    "oauth": true
+  },
+  "detailsMsg": {
+    "dataType": "file",
+    "url": "/notice/readNotice/getOneNoticeById",
+    "oauth": true
+  },
+  "downLoadFile": {
+    "dataType": "file",
+    "url": "/notice/noticeAttachment/download",
+    "oauth": true
+  },
+  "saveUserMsg": {
+    "dataType": "file",
+    "url": "/notice/readNotice/saveReadLog",
+    "oauth": true
+  },
+  "messageAdd": {
+    "dataType": "json",
+    "url": "/notice/noticeSet/getNoticeSetSeq",
+    "oauth": true
+  },
+  "queryTrade": {
+    "dataType": "json",
+    "url": "/notice/noticeSet/getTradecodeList",
+    "oauth": true
+  },
+  "saveMessage": {
+    "dataType": "file",
+    "url": "/notice/noticeSet/save",
+    "oauth": true
+  },
+  "uploadFile": {
+    "dataType": "file",
+    "url": "/notice/noticeAttachment/upLoad",
+    "oauth": true
+  },
+
+  "getFileList": {
+    "dataType": "file",
+    "url": "/notice/noticeAttachment/getAttachmentList",
+    "oauth": true
+  },
+  "queryNotices": {
+    "dataType": "file",
+    "url": "/notice/noticeSet/noticeListByPage",
+    "oauth": true
+  },
+  "deleteNotices": {
+    "dataType": "file",
+    "url": "/notice/noticeSet/deletes",
+    "oauth": true
+  },
+  "fileList": {
+    "dataType": "file",
+    "url": "/notice/noticeAttachment/getAttachmentList",
+    "oauth": true
+  },
+  "delectFile": {
+    "dataType": "file",
+    "url": "/notice/noticeAttachment/delete",
+    "oauth": true
+  },
+  "queryAllOrg": {
+    "dataType": "file",
+    "url": "/notice/noticeSet/getOrganizations",
+    "oauth": true
+  }
+    
+  },
+  "get": {
+
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "post": {
+    "wareHouseList": {
+      "dataType": "json",
+      "url": "/wareHouse/getList",
+      "oauth": true
+    },
+    "getWhDtsByWhNo": {
+      "dataType": "json",
+      "url": "/wareHouse/getWhDtsByWhNo",
+      "oauth": true
+    },
+    "wareHouseDtList": {
+      "dataType": "json",
+      "url": "/wareHouse/getDtList",
+      "oauth": true
+    },
+    "wareHousePortList": {
+      "dataType": "json",
+      "url": "/wareHouse/getPortList",
+      "oauth": true
+    },
+    "wareHouseSave": {
+      "dataType": "json",
+      "url": "/wareHouse/saveBsc",
+      "oauth": true
+    },
+    "wareHouseDelete": {
+      "dataType": "json",
+      "url": "/wareHouse/delete",
+      "oauth": true
+    },
+    "wareHouseSubmit": {
+      "dataType": "json",
+      "url": "/wareHouse/submit",
+      "oauth": true
+    },
+    "wareHouseAudit": {
+      "dataType": "json",
+      "url": "/wareHouse/audit",
+      "oauth": true
+    },
+    "wareHouseBscDetails": {
+      "dataType": "json",
+      "url": "/wareHouse/getBscDetails",
+      "oauth": true
+    },
+    "wareHouseDtDetails": {
+      "dataType": "json",
+      "url": "/wareHouse/getDtDetails",
+      "oauth": true
+    },
+    "wareHousePortDetails": {
+      "dataType": "json",
+      "url": "/wareHouse/getPortDetails",
+      "oauth": true
+    },
+    "wareHouseStatusDetails": {
+      "dataType": "json",
+      "url": "/wareHouse/getStatusDetails",
+      "oauth": true
+    },
+    "wareHouseAddInExp": {
+      "dataType": "json",
+      "url": "/wareHouse/addInExp",
+      "oauth": true 
+    },
+    "wareHouseUpdateInExp": {
+      "dataType": "json",
+      "url": "/wareHouse/updateInExp",
+      "oauth": true
+    },
+    "wareHouseDelInExp": {
+      "dataType": "json",
+      "url": "/wareHouse/delInExp",
+      "oauth": true
+    },
+    "wareHouseSubmitInExp": {
+      "dataType": "json",
+      "url": "/wareHouse/submitInExp",
+      "oauth": true
+    },
+    "confirmReceipt": {
+      "dataType": "json",
+      "url": "/wareHouse/confirmReceipt",
+      "oauth": true
+    },
+    "wareHousegetBscList": {
+        "dataType": "json",
+        "url": "/wareHouse/getBscList",
+        "oauth": true
+    },
+    "whCancel": {
+        "dataType": "json",
+        "url": "/wareHouse/whCancel",
+        "oauth": true
+      },
+    "whChange": {
+        "dataType": "json",
+        "url": "/wareHouse/whChange",
+        "oauth": true
+      },
+    "findBuNoByType": {
+        "dataType": "json",
+        "url": "/sasDeclare/findBuNoByType",
+        "oauth": true
+      }
+  },
+  "get": {
+    "wareHousePdf": {
+      "dataType": "json",
+      "url": "/wareHouse/pdf",
+      "oauth": true
+    }
+  }
+}

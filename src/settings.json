@@ -1,0 +1,28 @@
+{
+  "title": "洋山特殊综合保税区企业服务管理系统 - ",
+  "smName": "LGSA",
+  "name": "<i class=\"ion-social-windows\"></i>LGSA",
+  "homeRoute": {
+    "name": "首页",
+    "path": "home"
+  },
+  "onlyAdminMenu": "ECS_CDGL|ECS_SKJG|ECS_CYCSPZ|ECS_YWLXWH|ECS_CZFWLB|ECS_DLYHXX|ECS_FSPZ",
+  "whiteList": [
+    "/login", "/signin", "/404", "/401","/402","/backPassWord","/directdelivery"
+  ],
+  "loginWhiteList": [
+    "/home", "/print/payOrder", "/print/printPage", "/print/printCommPayPage"
+  ],
+
+  "tokenName": "new_area_token_out",
+  "tokenStrict": true,
+
+  "_routeStrategy": "allPass|tokenPass|authPass",
+  "routeStrategy": "tokenPass",
+
+  "_menuStrategy": "static|role|api",
+  "menuStrategy": "static",
+
+  "_theme": "blue|black",
+  "theme": "blue"
+}

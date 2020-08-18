@@ -1,0 +1,15 @@
+
+{
+    "post": {
+  
+      "portsaveByDrag": {
+        "dataType": "json",
+        "url": "/portRelease/saveByDrag",
+        "oauth": true
+      }
+    },
+    "get": {
+  
+    }
+  }
+  

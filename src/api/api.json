@@ -1,0 +1,43 @@
+{
+  "post": {
+    "_admin": "管理员接口",
+    "commConfigSearch": "/commConfig/search",
+    "commConfigSave": {
+      "url": "/commConfig/baseSqlHandle",
+      "showSuccess": true
+    },
+    "menusSearch": "/menu/search",
+    "menuSave": {
+      "url": "/menu/baseSqlHandle",
+      "showSuccess": true
+    },
+    "_framework": "框架接口",
+    "getUserInfo": {
+      "dataType": "form",
+      "url": "/userInfo",
+      "oauth": true
+    },
+    "resetPass": {
+      "dataType": "form",
+      "url": "/resetPass",
+      "showSuccess": true    
+    },
+    "mfbillList":{
+      "dataType": "json",
+      "url": "/mfbill/list",
+      "oauth": true
+    },
+    "getMenuesByRoleNames": {
+      "dataType": "file",
+      "url": "/role/menu/getMenuesByRoleNames",
+      "oauth": true,
+      "cors":true
+    }
+  },
+  "get": {
+    "captchaUuid": {
+      "url": "/pcruuid",
+      "oauth": false
+    }
+  }
+}

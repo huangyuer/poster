@@ -1,0 +1,185 @@
+{
+  "post": {
+    "addEnterprise": {
+      "dataType": "json",
+      "url": "/org/saveTrade",
+      "oauth": true
+    },
+    "orgGetOrgStatus": {
+      "dataType": "json",
+      "url": "/org/getOrgStatus",
+      "oauth": true
+    },
+    "orgGetTrdStatus": {
+      "dataType": "json",
+      "url": "/org/getTrdStatus",
+      "oauth": true
+    },
+    "enterpriseSave": {
+      "dataType": "json",
+      "url": "/org/updateTrade",
+      "oauth": true
+    },
+    "enterpriseDelete": {
+      "dataType": "json",
+      "url": "/user/addTrade",
+      "oauth": true
+    },
+    "queryEnterprise": {
+      "dataType": "json",
+      "url": "/org/getTradeList",
+      "oauth": true
+    },
+    "orgGetTradeByPage": {
+      "dataType": "json",
+      "url": "/org/getTradeByPage",
+      "oauth": true
+    },
+    "getTradeById": {
+      "dataType": "json",
+      "url": "/org/getTradeDetail",
+      "oauth": true
+    },
+    "declareTrade": {
+      "dataType": "json",
+      "url": "/org/declareTrade",
+      "oauth": true
+    },
+    "addOrganization": {
+      "dataType": "json",
+      "url": "/org/saveOrg",
+      "oauth": true
+    },
+    "organizationSave": {
+      "dataType": "json",
+      "url": "/org/updateOrg",
+      "oauth": true
+    },
+    "deleteOrg": {
+      "dataType": "json",
+      "url": "/org/deleteOrg",
+      "oauth": true
+    },
+    "queryOrganization": {
+      "dataType": "json",
+      "url": "/org/getOrgList",
+      "oauth": true
+    },
+    "orgGetOrgByPage": {
+      "dataType": "json",
+      "url": "/org/getOrgByPage",
+      "oauth": true
+    },
+    "getOrganizationById": {
+      "dataType": "json",
+      "url": "/org/getOrgDetail",
+      "oauth": true
+    },
+    "getOrgGetOrgProIn": {
+      "dataType": "json",
+      "url": "/org/getOrgProIn",
+      "oauth": true
+    },
+    "getOrgGetOrgProOut": {
+      "dataType": "json",
+      "url": "/org/getOrgProOut",
+      "oauth": true
+    },
+    "queryOrgrelation": {
+      "dataType": "json",
+      "url": "/org/queryOrgrelation",
+      "oauth": true
+    },
+    "getOrgGetOrgCsgIn": {
+      "dataType": "json",
+      "url": "/org/getOrgCsgIn",
+      "oauth": true
+    },
+    "getOrgGetOrgCsgSub": {
+      "dataType": "json",
+      "url": "/org/getOrgCsgSub",
+      "oauth": true
+    },
+    "getOrgIdByAccountBook": {
+      "dataType": "json",
+      "url": "/org/getOrgIdByAccountBook",
+      "oauth": true
+    },
+    "getgiveupAgc": {
+      "dataType": "json",
+      "url": "/org/giveupAgc",
+      "oauth": true
+    },
+    "getgiveAgc": {
+      "dataType": "json",
+      "url": "/org/giveAgc",
+      "oauth": true
+    },
+    "getaccectAgc": {
+      "dataType": "json",
+      "url": "/org/accectAgc",
+      "oauth": true
+    },
+    "declareOrg": {
+      "dataType": "json",
+      "url": "/org/declareOrg",
+      "oauth": true
+    },
+    "getOrganizationByTradeCode": {
+      "dataType": "json",
+      "url": "/org/getOrgByTradeCode",
+      "oauth": true
+    },
+    "getOrgByTradeCodeChange": {
+      "dataType": "json",
+      "url": "/org/getOrgByTradeCodeChange",
+      "oauth": true
+    },
+    "getOrgByOrgCode": {
+      "dataType": "json",
+      "url": "/org/getOrgByOrgCode1",
+      "oauth": true
+    },
+    "getCsgOrg": {
+      "dataType": "json",
+      "url": "/org/getCsgOrg",
+      "oauth": true
+    },
+    "getProOrg": {
+      "dataType": "json",
+      "url": "/org/getProOrg",
+      "oauth": true
+    },
+    "getAgencyOrganizationAll": {
+      "dataType": "json",
+      "url": "/org/getAgencyOrganizationAll",
+      "oauth": true
+    },
+    "getOrgrelationByOrgId": {
+      "dataType": "json",
+      "url": "/org/getOrgrelationByOrgId",
+      "oauth": true
+    },
+    "findOrganizationName": {
+      "dataType": "json",
+      "url": "/org/findOrganizationName",
+      "oauth": true
+    },
+    "orgQualifyGetOrgQual": {
+      "dataType": "json",
+      "url": "/org/qualify/getOrgQual",
+      "oauth": true
+    },
+    "orgSupplierGetSupplierList": {
+      "dataType": "json",
+      "url": "/org/supplier/getSupplierList",
+      "oauth": true
+    },
+
+    "getOrgByCustomCode": {
+      "method": "post",
+      "url": "/org/switch/getOrgByCustomCode"
+    }
+  },
+  "get": {}
+}

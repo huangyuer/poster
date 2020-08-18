@@ -1,0 +1,62 @@
+{
+  "post": {
+    "getRtlList": {
+			"dataType": "json",
+			"url": "/sasPassport/getRtlList",
+			"oauth": true
+		},
+		"sasPassportGetStatusList": {
+			"dataType": "json",
+			"url": "/sasPassport/getStatusList",
+			"oauth": true
+		},
+		"sasPassportGetListByCarPooling": {
+			"dataType": "json",
+			"url": "/sasPassport/getListByCarPooling",
+			"oauth": true
+		},
+		"declareSasPpBsc": {
+			"dataType": "json",
+			"url": "/sasPassport/declare",
+			"oauth": true
+		},
+		"importsas": {
+			"dataType": "file",
+			"url": "/sasPassport/import",
+			"oauth": true
+		},
+		"discardSasPpBsc": {
+			"dataType": "json",
+			"url": "/sasPassport/useless",
+			"oauth": true
+		},
+		"getSasPpBscAll": {
+			"dataType": "json",
+			"url": "/sasPassport/getList",
+			"oauth": true
+		},
+		"addSasPpBsc": {
+			"dataType": "json",
+			"url": "/sasPassport/save",
+			"oauth": true
+		},
+		"updateSasPpBsc": {
+			"dataType": "json",
+			"url": "/sasPassport/update",
+			"oauth": true
+		},
+		"getSasPpBscDetail": {
+			"dataType": "json",
+			"url": "/sasPassport/getDetail",
+			"oauth": true
+		},
+		"deleteSasPpBsc": {
+			"dataType": "json",
+			"url": "/sasPassport/delete",
+			"oauth": true
+		}
+  },
+  "get": {
+
+  }
+}

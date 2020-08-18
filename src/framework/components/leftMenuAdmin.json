@@ -1,0 +1,84 @@
+{
+  "menu": [
+    {
+      "router": "/operUserAdd",
+      "children": [
+        {
+          "router": "/operUserAdd",
+          "name": "录入",
+          "icon": "android-add",
+          "index": 11
+        },
+        {
+          "router": "/operUserInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 12
+        }
+      ],
+      "name": "用户管理",
+      "icon": "android-person",
+      "index": 1
+    },
+    {
+      "router": "/enterpriseInfo",
+      "children": [
+        {
+          "router": "/enterpriseAdd",
+          "name": "录入",
+          "icon": "android-add",
+          "index": 20
+        },
+        {
+          "router": "/enterpriseInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 21
+        }
+      ],
+      "name": "企业信息管理",
+      "icon": "home",
+      "index": 2
+    },
+    {
+      "router": "/organizationInfo",
+      "children": [
+        {
+          "router": "/organizationAdd",
+          "name": "录入",
+          "icon": "android-add",
+          "index": 31
+        },
+        {
+          "router": "/organizationInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 32
+        }
+      ],
+      "name": "组织信息管理",
+      "icon": "social-buffer",
+      "index": 3
+    },
+    {
+      "router": "/Qualificat",
+      "children": [
+        {
+          "router": "/Qualificat",
+          "name": "录入",
+          "icon": "android-add",
+          "index": 33
+        },
+        {
+          "router": "/Qualificatinfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 34
+        }
+      ],
+      "name": "企业资质管理",
+      "icon": "social-buffer",
+      "index": 4
+    }
+  ]
+}

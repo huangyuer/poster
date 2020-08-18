@@ -1,0 +1,54 @@
+{
+    "post": {
+      "baseGoodSave": {
+        "dataType": "json",
+        "url": "/baseserver/save",
+        "oauth": true
+      },
+      "baseGoodUpdate": {
+        "dataType": "json",
+        "url": "/baseserver/update",
+        "oauth": true
+      },
+      "baseGoodList": {
+        "dataType": "json",
+        "url": "/baseserver/getList",
+        "oauth": true
+      },
+      "baseGoodDelete": {
+        "dataType": "json",
+        "url": "/baseserver/delete",
+        "oauth": true
+      },
+      "baseGoodDeclare": {
+        "dataType": "json",
+        "url": "/baseserver/declare",
+        "oauth": true
+      },
+      "baseGoodDetail": {
+        "dataType": "json",
+        "url": "/baseserver/findBaseGoodById",
+        "oauth": true
+      },
+      "baseGoodCurrentAndHisDetail": {
+        "dataType": "json",
+        "url": "/baseserver/queryCurrentAndHis",
+        "oauth": true
+      },
+      "baseGoodModifySave": {
+        "dataType": "json",
+        "url": "/baseserver/modifySave",
+        "oauth": true
+      },
+      "baseGoodModify": {
+        "dataType": "json",
+        "url": "/baseserver/modify",
+        "oauth": true
+      }
+      
+    },
+    "get": {
+      
+    }
+  }
+  

@@ -1,0 +1,282 @@
+{
+  "menu": [
+    {
+      "router": "/BillDirDtAdd",
+      "children": [
+        {
+          "router": "/BillDirDtAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 91
+        },
+        {
+          "router": "/PathBillOfladingInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 92
+        }
+      ],
+      "name": "进境径予放行",
+      "icon": "ios-box",
+      "index": 9
+    },
+    {
+      "router": "/BillDirExpDtAdd",
+      "children": [
+        {
+          "router": "/BillDirExpDtAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 1111
+        },
+        {
+          "router": "/PathBillDirExpBscInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 1112
+        }
+      ],
+      "name": "出境径予放行",
+      "icon": "ios-copy",
+      "index": 11
+    },
+    {
+      "router": "/CreditCardReceiptAdd",
+      "children": [
+        {
+          "router": "/CreditCardReceiptAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 1901
+        },
+        {
+          "router": "/CreditCardReceiptInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 1902
+        }
+      ],
+      "name": "卡口验放凭证",
+      "icon": "ios-list",
+      "index": 19
+    },
+    {
+      "router": "/WareHouseAdd",
+      "children": [
+        {
+          "router": "/WareHouseAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 1501
+        },
+        {
+          "router": "/WareHouseInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 1502
+        }
+      ],
+      "name": "进出区提发货凭证",
+      "icon": "ios-albums",
+      "index": 15
+    },
+    {
+      "router": "/OutwardAdd",
+      "children": [
+        {
+          "router": "/OutwardAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 2601
+        },
+        {
+          "router": "/OutwardInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 2602
+        }
+      ],
+      "name": "耗料清单",
+      "icon": "ios-albums",
+      "index": 26
+    },
+    {
+      "router": "/BusinessDeclarFromAdd",
+      "children": [
+        {
+          "router": "/BusinessDeclarFromAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 2701
+        },
+        {
+          "router": "/BusinessDeclarFromSearch",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 2702
+        }
+      ],
+      "name": "业务申报表",
+      "icon": "ios-albums",
+      "index": 27
+    },
+    {
+      "router": "/ImportBondedInfo",
+      "children": [
+        {
+          "router": "/ImportBondedInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 1702
+        }
+      ],
+      "name": "进出境货物统计汇总",
+      "icon": "ios-calculator",
+      "index": 17
+    },
+    {
+      "router": "/BaseGoodAdd",
+      "children": [
+        {
+          "router": "/BaseGoodAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 2101
+        },
+        {
+          "router": "/BaseGoodInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 2102
+        }
+      ],
+      "name": "货物信息表",
+      "icon": "ios-calculator",
+      "index": 21
+    },
+    {
+      "router": "/draw",
+      "children": [
+        {
+          "router": "/importAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 2201
+        },
+        {
+          "router": "/ImportBondedInfodraw",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 2202
+        },
+        {
+          "router": "/drawsearch",
+          "name": "字段映射",
+          "icon": "ios-search",
+          "index": 2205
+        },
+        {
+          "router": "/drawsearchvalue",
+          "name": "值映射",
+          "icon": "ios-search",
+          "index": 2206
+        },
+        {
+          "router": "/drawvalue",
+          "name": "生成映射",
+          "icon": "android-add",
+          "index": 2207
+        }
+      ],
+      "name": "出入库预增减",
+      "icon": "ios-calculator",
+      "index": 22
+    },
+    {
+      "router": "/demo",
+      "children": [
+        {
+          "router": "/Confirmation",
+          "name": "进出库确认",
+          "icon": "android-add",
+          "index": 1802
+        },
+        {
+          "router": "/BayonetGeneration",
+          "name": "生成卡口验放凭证",
+          "icon": "ios-search",
+          "index": 2209
+        },
+        {
+          "router": "/AccessArea",
+          "name": "生成进出区提发货凭证",
+          "icon": "ios-search",
+          "index": 2210
+        }
+      ],
+      "name": "数据生成",
+      "icon": "ios-calculator",
+      "index": 23
+    },
+    {
+      "router": "/Guarantee",
+      "children": [
+        {
+          "router": "/GuaranteeAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 2401
+        },
+        {
+          "router": "/GuaranteeSearch",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 2402
+        }
+      ],
+      "name": "保证金",
+      "icon": "ios-box",
+      "index": 24
+    },
+    {
+      "router": "/ToalGuarantee",
+      "children": [
+        {
+          "router": "/ToalGuaranteeAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 2501
+        },
+        {
+          "router": "/ToalGuaranteeSearch",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 2502
+        }
+      ],
+      "name": "总担保",
+      "icon": "ios-box",
+      "index": 25
+    },
+    {
+      "router": "/LoadingListAdd",
+      "children": [
+        {
+          "router": "/LoadingListAdd",
+          "name": "生成",
+          "icon": "android-add",
+          "index": 3501
+        },
+        {
+          "router": "/LoadingListInfo",
+          "name": "查询",
+          "icon": "ios-search",
+          "index": 3502
+        }
+      ],
+      "name": "装车单",
+      "icon": "ios-box",
+      "index": 35
+    }
+  ]
+}

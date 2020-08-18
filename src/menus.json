@@ -1,0 +1,1454 @@
+ {
+  "static": [{
+    "index": "1",
+    "name": "企业信息管理",
+    "icon": "home",
+    "router": "/enterpriseInfo",
+    "children": [{
+      "index": "2",
+      "name": "查询",
+      "icon": "ios-search",
+      "router": "/enterpriseInfo"
+    }]
+  }, {
+    "index": "3",
+    "name": "组织信息管理",
+    "icon": "home",
+    "router": "/organizationInfo",
+    "children": [{
+      "index": "4",
+      "name": "查询",
+      "icon": "ios-search",
+      "router": "/organizationInfo"
+    }]
+  }, {
+    "index": "5",
+    "name": "加工账册管理",
+    "icon": "home",
+    "router": "/processingBooksAdd",
+    "children": [{
+        "index": "6",
+        "name": "录入",
+        "icon": "android-add",
+        "router": "/processingBooksAdd"
+      },
+      {
+        "index": "7",
+        "name": "查询",
+        "icon": "ios-search",
+        "router": "/processingBooksInfo"
+      }
+    ]
+  }, {
+    "index": "44",
+    "name": "设备账册管理",
+    "icon": "home",
+    "router": "/equipmentBookAdd",
+    "children": [{
+        "index": "45",
+        "name": "录入",
+        "icon": "android-add",
+        "router": "/equipmentBookAdd"
+      },
+      {
+        "index": "46",
+        "name": "查询",
+        "icon": "ios-search",
+        "router": "/equipmentBookInfo"
+      }
+    ]
+  }, {
+    "index": "11",
+    "name": "业务申报表管理",
+    "icon": "home",
+    "router": "/businessDeclaration",
+    "children": [{
+        "index": "12",
+        "name": "录入",
+        "icon": "android-add",
+        "router": "/businessDeclarationAdd"
+      },
+      {
+        "index": "13",
+        "name": "查询",
+        "icon": "ios-search",
+        "router": "/businessDeclarationInfo"
+      }
+    ]
+  }, {
+    "index": "14",
+    "name": "出入库单管理",
+    "icon": "home",
+    "router": "/inoutStockAdd",
+    "children": [{
+        "index": "15",
+        "name": "录入",
+        "icon": "android-add",
+        "router": "/inoutStockAdd"
+      },
+      {
+        "index": "16",
+        "name": "查询",
+        "icon": "ios-search",
+        "router": "/inoutStockInfo"
+      },
+      {
+        "router": "/inoutStockDtInfo"
+      }
+    ]
+  }, {
+    "index": "17",
+    "name": "核放单管理",
+    "icon": "home",
+    "router": "/nuclearReleaseAdd",
+    "children": [{
+        "index": "18",
+        "name": "录入",
+        "icon": "android-add",
+        "router": "/nuclearReleaseAdd"
+      },
+      {
+        "index": "19",
+        "name": "查询",
+        "icon": "ios-search",
+        "router": "/nuclearReleaseInfo"
+      }
+    ]
+  }, {
+    "index": "20",
+    "name": "核注清单管理",
+    "icon": "home",
+    "router": "/addBondInvt",
+    "children": [{
+        "index": "21",
+        "name": "录入",
+        "icon": "android-add",
+        "router": "/addBondInvt"
+      },
+      {
+        "index": "22",
+        "name": "查询",
+        "icon": "ios-search",
+        "router": "/findBondInvtPage"
+      }
+    ]
+  }, {
+    "index": "23",
+    "name": "担保管理",
+    "icon": "home",
+    "router": "/guaranteeAdd",
+    "children": [{
+        "index": "24",
+        "name": "总担保录入",
+        "icon": "android-add",
+        "router": "/guaranteeAdd"
+      },
+      {
+        "index": "25",
+        "name": "总担保查询",
+        "icon": "ios-search",
+        "router": "/guaranteeInfo"
+      },
+      {
+        "index": "26",
+        "name": "保证金录入",
+        "icon": "android-add",
+        "router": "/bondGuaranteeAdd"
+      },
+      {
+        "index": "27",
+        "name": "保证金查询",
+        "icon": "ios-search",
+        "router": "/bondGuaranteeInfo"
+      },
+      {
+        "index": "28",
+        "name": "退还结转录入",
+        "icon": "android-add",
+        "router": "/returnAndTransferAdd"
+      },
+      {
+        "index": "29",
+        "name": "退还结转查询",
+        "icon": "ios-search",
+        "router": "/returnAndTransferInfo"
+      }
+    ]
+  }, {
+    "index": "30",
+    "name": "参数管理",
+    "icon": "home",
+    "router": "/organizationInfo",
+    "children": [{
+        "index": "31",
+        "name": "商品编码表",
+        "icon": "ios-search",
+        "router": "/queryComplex"
+      }, {
+        "index": "32",
+        "name": "币制表",
+        "icon": "ios-search",
+        "router": "/queryCurr"
+      },
+      {
+        "index": "33",
+        "name": "汇率表",
+        "icon": "ios-search",
+        "router": "/queryExchangeRate"
+      },
+      {
+        "index": "34",
+        "name": "贸易方式表",
+        "icon": "ios-search",
+        "router": "/queryTradeMode"
+      },
+      {
+        "index": "35",
+        "name": "运输方式表",
+        "icon": "ios-search",
+        "router": "/queryTransf"
+      },
+      {
+        "index": "36",
+        "name": "成交方式表",
+        "icon": "ios-search",
+        "router": "/queryTransac"
+      },
+      {
+        "index": "37",
+        "name": "关区表",
+        "icon": "ios-search",
+        "router": "/queryCustom"
+      },
+      {
+        "index": "38",
+        "name": "境内目的地表",
+        "icon": "ios-search",
+        "router": "/queryDistrict"
+      },
+      {
+        "index": "39",
+        "name": "国家表",
+        "icon": "ios-search",
+        "router": "/queryCountry"
+      },
+      {
+        "index": "40",
+        "name": "计量单位表",
+        "icon": "ios-search",
+        "router": "/queryUnit"
+      },
+      {
+        "index": "41",
+        "name": "用途代码表",
+        "icon": "ios-search",
+        "router": "/queryUseTo"
+      },
+      {
+        "index": "42",
+        "name": "征减免方式代码表",
+        "icon": "ios-search",
+        "router": "/queryLevymode"
+      },
+      {
+        "index": "43",
+        "name": "包装种类表",
+        "icon": "ios-search",
+        "router": "/queryWraptypeList"
+      }
+    ]
+  }],
+  "menusCompanyOperQW": [{
+      "index": "1",
+      "name": "企业信息管理",
+      "icon": "home",
+      "router": "/enterpriseInfo",
+      "children": [{
+        "index": "2",
+        "name": "查询",
+        "icon": "ios-search",
+        "router": "/enterpriseInfo"
+      }]
+    }, {
+      "index": "3",
+      "name": "组织信息管理",
+      "icon": "home",
+      "router": "/organizationInfo",
+      "children": [{
+        "index": "4",
+        "name": "查询",
+        "icon": "ios-search",
+        "router": "/organizationInfo"
+      }]
+    },
+    {
+      "index": "5",
+      "name": "物流账册管理",
+      "icon": "home",
+      "router": "/logisticsBookAdd",
+      "children": [{
+          "index": "6",
+          "name": "录入",
+          "icon": "android-add",
+          "router": "/logisticsBookAdd"
+        },
+        {
+          "index": "7",
+          "name": "查询",
+          "icon": "ios-search",
+          "router": "/logisticsBookInfo"
+        }
+      ]
+    },
+    {
+      "index": "44",
+      "name": "设备账册管理",
+      "icon": "home",
+      "router": "/equipmentBookAdd",
+      "children": [{
+          "index": "45",
+          "name": "录入",
+          "icon": "android-add",
+          "router": "/equipmentBookAdd"
+        },
+        {
+          "index": "46",
+          "name": "查询",
+          "icon": "ios-search",
+          "router": "/equipmentBookInfo"
+        }
+      ]
+    }, {
+      "index": "11",
+      "name": "业务申报表管理",
+      "icon": "home",
+      "router": "/businessDeclaration",
+      "children": [{
+          "index": "12",
+          "name": "录入",
+          "icon": "android-add",
+          "router": "/businessDeclarationAdd"
+        },
+        {
+          "index": "13",
+          "name": "查询",
+          "icon": "ios-search",
+          "router": "/businessDeclarationInfo"
+        }
+      ]
+    }, {
+      "index": "14",
+      "name": "出入库单管理",
+      "icon": "home",
+      "router": "/inoutStockAdd",
+      "children": [{
+          "index": "15",
+          "name": "录入",
+          "icon": "android-add",
+          "router": "/inoutStockAdd"
+        },
+        {
+          "index": "16",
+          "name": "查询",
+          "icon": "ios-search",
+          "router": "/inoutStockInfo"
+        }
+      ]
+    }, {
+      "index": "17",
+      "name": "核放单管理",
+      "icon": "home",
+      "router": "/nuclearReleaseAdd",
+      "children": [{
+          "index": "18",
+          "name": "录入",
+          "icon": "android-add",
+          "router": "/nuclearReleaseAdd"
+        },
+        {
+          "index": "19",
+          "name": "查询",
+          "icon": "ios-search",
+          "router": "/nuclearReleaseInfo"
+        }
+      ]
+    }, {
+      "index": "20",
+      "name": "核注清单管理",
+      "icon": "home",
+      "router": "/addBondInvt",
+      "children": [{
+          "index": "21",
+          "name": "录入",
+          "icon": "android-add",
+          "router": "/addBondInvt"
+        },
+        {
+          "index": "22",
+          "name": "查询",
+          "icon": "ios-search",
+          "router": "/findBondInvtPage"
+        }
+      ]
+    }, {
+      "index": "23",
+      "name": "担保管理",
+      "icon": "home",
+      "router": "/guaranteeAdd",
+      "children": [{
+          "index": "24",
+          "name": "总担保录入",
+          "icon": "android-add",
+          "router": "/guaranteeAdd"
+        },
+        {
+          "index": "25",
+          "name": "总担保查询",
+          "icon": "ios-search",
+          "router": "/guaranteeInfo"
+        },
+        {
+          "index": "26",
+          "name": "保证金录入",
+          "icon": "android-add",
+          "router": "/bondGuaranteeAdd"
+        },
+        {
+          "index": "27",
+          "name": "保证金查询",
+          "icon": "ios-search",
+          "router": "/bondGuaranteeInfo"
+        },
+        {
+          "index": "28",
+          "name": "退还结转录入",
+          "icon": "android-add",
+          "router": "/returnAndTransferAdd"
+        },
+        {
+          "index": "29",
+          "name": "退还结转查询",
+          "icon": "ios-search",
+          "router": "/returnAndTransferInfo"
+        }
+      ]
+    }
+  ],
+   "menusCompanyOperJ": [{
+     "index": "1",
+     "name": "企业信息管理",
+     "icon": "home",
+     "router": "/enterpriseInfo",
+     "children": [{
+       "index": "2",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/enterpriseInfo"
+     }]
+   }, {
+     "index": "3",
+     "name": "组织信息管理",
+     "icon": "home",
+     "router": "/organizationInfo",
+     "children": [{
+       "index": "4",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/organizationInfo"
+     }]
+   }, {
+     "index": "5",
+     "name": "加工账册管理",
+     "icon": "home",
+     "router": "/processingBooksAdd",
+     "children": [{
+         "index": "6",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/processingBooksAdd"
+       },
+       {
+         "index": "7",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/processingBooksInfo"
+       }
+     ]
+   }, {
+     "index": "44",
+     "name": "设备账册管理",
+     "icon": "home",
+     "router": "/equipmentBookAdd",
+     "children": [{
+         "index": "45",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/equipmentBookAdd"
+       },
+       {
+         "index": "46",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/equipmentBookInfo"
+       }
+     ]
+   }, {
+     "index": "11",
+     "name": "业务申报表管理",
+     "icon": "home",
+     "router": "/businessDeclaration",
+     "children": [{
+         "index": "12",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/businessDeclarationAdd"
+       },
+       {
+         "index": "13",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/businessDeclarationInfo"
+       }
+     ]
+   }, {
+     "index": "14",
+     "name": "出入库单管理",
+     "icon": "home",
+     "router": "/inoutStockAdd",
+     "children": [{
+         "index": "15",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/inoutStockAdd"
+       },
+       {
+         "index": "16",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/inoutStockInfo"
+       }
+     ]
+   }, {
+     "index": "17",
+     "name": "核放单管理",
+     "icon": "home",
+     "router": "/nuclearReleaseAdd",
+     "children": [{
+         "index": "18",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/nuclearReleaseAdd"
+       },
+       {
+         "index": "19",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/nuclearReleaseInfo"
+       }
+     ]
+   }, {
+     "index": "20",
+     "name": "核注清单管理",
+     "icon": "home",
+     "router": "/addBondInvt",
+     "children": [{
+         "index": "21",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/addBondInvt"
+       },
+       {
+         "index": "22",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/findBondInvtPage"
+       }
+     ]
+   }, {
+     "index": "23",
+     "name": "担保管理",
+     "icon": "home",
+     "router": "/guaranteeAdd",
+     "children": [{
+         "index": "24",
+         "name": "总担保录入",
+         "icon": "android-add",
+         "router": "/guaranteeAdd"
+       },
+       {
+         "index": "25",
+         "name": "总担保查询",
+         "icon": "ios-search",
+         "router": "/guaranteeInfo"
+       },
+       {
+         "index": "26",
+         "name": "保证金录入",
+         "icon": "android-add",
+         "router": "/bondGuaranteeAdd"
+       },
+       {
+         "index": "27",
+         "name": "保证金查询",
+         "icon": "ios-search",
+         "router": "/bondGuaranteeInfo"
+       },
+       {
+         "index": "28",
+         "name": "退还结转录入",
+         "icon": "android-add",
+         "router": "/returnAndTransferAdd"
+       },
+       {
+         "index": "29",
+         "name": "退还结转查询",
+         "icon": "ios-search",
+         "router": "/returnAndTransferInfo"
+       }
+     ]
+   }, {
+     "index": "30",
+     "name": "参数管理",
+     "icon": "home",
+     "router": "/organizationInfo",
+     "children": [{
+         "index": "31",
+         "name": "商品编码表",
+         "icon": "ios-search",
+         "router": "/queryComplex"
+       }, {
+         "index": "32",
+         "name": "币制表",
+         "icon": "ios-search",
+         "router": "/queryCurr"
+       },
+       {
+         "index": "33",
+         "name": "汇率表",
+         "icon": "ios-search",
+         "router": "/queryExchangeRate"
+       },
+       {
+         "index": "34",
+         "name": "贸易方式表",
+         "icon": "ios-search",
+         "router": "/queryTradeMode"
+       },
+       {
+         "index": "35",
+         "name": "运输方式表",
+         "icon": "ios-search",
+         "router": "/queryTransf"
+       },
+       {
+         "index": "36",
+         "name": "成交方式表",
+         "icon": "ios-search",
+         "router": "/queryTransac"
+       },
+       {
+         "index": "37",
+         "name": "关区表",
+         "icon": "ios-search",
+         "router": "/queryCustom"
+       },
+       {
+         "index": "38",
+         "name": "境内目的地表",
+         "icon": "ios-search",
+         "router": "/queryDistrict"
+       },
+       {
+         "index": "39",
+         "name": "国家表",
+         "icon": "ios-search",
+         "router": "/queryCountry"
+       },
+       {
+         "index": "40",
+         "name": "计量单位表",
+         "icon": "ios-search",
+         "router": "/queryUnit"
+       },
+       {
+         "index": "41",
+         "name": "用途代码表",
+         "icon": "ios-search",
+         "router": "/queryUseTo"
+       },
+       {
+         "index": "42",
+         "name": "征减免方式代码表",
+         "icon": "ios-search",
+         "router": "/queryLevymode"
+       },
+       {
+         "index": "43",
+         "name": "包装种类表",
+         "icon": "ios-search",
+         "router": "/queryWraptypeList"
+       }
+     ]
+   }],
+   "menusCompanyOperQW": [{
+       "index": "1",
+       "name": "企业信息管理",
+       "icon": "home",
+       "router": "/enterpriseInfo",
+       "children": [{
+         "index": "2",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/enterpriseInfo"
+       }]
+     }, {
+       "index": "3",
+       "name": "组织信息管理",
+       "icon": "home",
+       "router": "/organizationInfo",
+       "children": [{
+         "index": "4",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/organizationInfo"
+       }]
+     },
+     {
+       "index": "5",
+       "name": "物流账册管理",
+       "icon": "home",
+       "router": "/logisticsBookAdd",
+       "children": [{
+           "index": "6",
+           "name": "录入",
+           "icon": "android-add",
+           "router": "/logisticsBookAdd"
+         },
+         {
+           "index": "7",
+           "name": "查询",
+           "icon": "ios-search",
+           "router": "/logisticsBookInfo"
+         }
+       ]
+     },
+     {
+       "index": "44",
+       "name": "设备账册管理",
+       "icon": "home",
+       "router": "/equipmentBookAdd",
+       "children": [{
+           "index": "45",
+           "name": "录入",
+           "icon": "android-add",
+           "router": "/equipmentBookAdd"
+         },
+         {
+           "index": "46",
+           "name": "查询",
+           "icon": "ios-search",
+           "router": "/equipmentBookInfo"
+         }
+       ]
+     }, {
+       "index": "11",
+       "name": "业务申报表管理",
+       "icon": "home",
+       "router": "/businessDeclaration",
+       "children": [{
+           "index": "12",
+           "name": "录入",
+           "icon": "android-add",
+           "router": "/businessDeclarationAdd"
+         },
+         {
+           "index": "13",
+           "name": "查询",
+           "icon": "ios-search",
+           "router": "/businessDeclarationInfo"
+         }
+       ]
+     }, {
+       "index": "14",
+       "name": "出入库单管理",
+       "icon": "home",
+       "router": "/inoutStockAdd",
+       "children": [{
+           "index": "15",
+           "name": "录入",
+           "icon": "android-add",
+           "router": "/inoutStockAdd"
+         },
+         {
+           "index": "16",
+           "name": "查询",
+           "icon": "ios-search",
+           "router": "/inoutStockInfo"
+         }
+       ]
+     }, {
+       "index": "17",
+       "name": "核放单管理",
+       "icon": "home",
+       "router": "/nuclearReleaseAdd",
+       "children": [{
+           "index": "18",
+           "name": "录入",
+           "icon": "android-add",
+           "router": "/nuclearReleaseAdd"
+         },
+         {
+           "index": "19",
+           "name": "查询",
+           "icon": "ios-search",
+           "router": "/nuclearReleaseInfo"
+         }
+       ]
+     }, {
+       "index": "20",
+       "name": "核注清单管理",
+       "icon": "home",
+       "router": "/addBondInvt",
+       "children": [{
+           "index": "21",
+           "name": "录入",
+           "icon": "android-add",
+           "router": "/addBondInvt"
+         },
+         {
+           "index": "22",
+           "name": "查询",
+           "icon": "ios-search",
+           "router": "/findBondInvtPage"
+         }
+       ]
+     }, {
+       "index": "23",
+       "name": "担保管理",
+       "icon": "home",
+       "router": "/guaranteeAdd",
+       "children": [{
+           "index": "24",
+           "name": "总担保录入",
+           "icon": "android-add",
+           "router": "/guaranteeAdd"
+         },
+         {
+           "index": "25",
+           "name": "总担保查询",
+           "icon": "ios-search",
+           "router": "/guaranteeInfo"
+         },
+         {
+           "index": "26",
+           "name": "保证金录入",
+           "icon": "android-add",
+           "router": "/bondGuaranteeAdd"
+         },
+         {
+           "index": "27",
+           "name": "保证金查询",
+           "icon": "ios-search",
+           "router": "/bondGuaranteeInfo"
+         },
+         {
+           "index": "28",
+           "name": "退还结转录入",
+           "icon": "android-add",
+           "router": "/returnAndTransferAdd"
+         },
+         {
+           "index": "29",
+           "name": "退还结转查询",
+           "icon": "ios-search",
+           "router": "/returnAndTransferInfo"
+         }
+       ]
+     }
+   ],
+
+
+
+
+   "menusCompanyOperC": [{
+     "index": "1",
+     "name": "企业信息管理",
+     "icon": "home",
+     "router": "/enterpriseInfo",
+     "children": [{
+       "index": "2",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/enterpriseInfo"
+     }]
+   }, {
+     "index": "3",
+     "name": "组织信息管理",
+     "icon": "home",
+     "router": "/organizationInfo",
+     "children": [{
+       "index": "4",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/organizationInfo"
+     }]
+   }, {
+     "index": "5",
+     "name": "物流账册管理",
+     "icon": "home",
+     "router": "/logisticsBookAdd",
+     "children": [{
+         "index": "6",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/logisticsBookAdd"
+       },
+       {
+         "index": "7",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/logisticsBookInfo"
+       }
+     ]
+   }, {
+     "index": "44",
+     "name": "设备账册管理",
+     "icon": "home",
+     "router": "/equipmentBookAdd",
+     "children": [{
+         "index": "45",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/equipmentBookAdd"
+       },
+       {
+         "index": "46",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/equipmentBookInfo"
+       }
+     ]
+   }, {
+     "index": "8",
+     "name": "业务申报表管理",
+     "icon": "home",
+     "router": "/businessDeclaration",
+     "children": [{
+         "index": "9",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/businessDeclarationAdd"
+       },
+       {
+         "index": "10",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/businessDeclarationInfo"
+       }
+     ]
+   }, {
+     "index": "10",
+     "name": "出入库单管理",
+     "icon": "home",
+     "router": "/inoutStockAdd",
+     "children": [{
+         "index": "11",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/inoutStockAdd"
+       },
+       {
+         "index": "12",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/inoutStockInfo"
+       }
+     ]
+   }, {
+     "index": "13",
+     "name": "核放单管理",
+     "icon": "home",
+     "router": "/nuclearReleaseAdd",
+     "children": [{
+         "index": "14",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/nuclearReleaseAdd"
+       },
+       {
+         "index": "15",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/nuclearReleaseInfo"
+       }
+     ]
+   }, {
+     "index": "16",
+     "name": "核注清单管理",
+     "icon": "home",
+     "router": "/addBondInvt",
+     "children": [{
+         "index": "17",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/addBondInvt"
+       },
+       {
+         "index": "18",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/findBondInvtPage"
+       }
+     ]
+   }, {
+     "index": "19",
+     "name": "担保管理",
+     "icon": "home",
+     "router": "/guaranteeAdd",
+     "children": [{
+         "index": "20",
+         "name": "总担保录入",
+         "icon": "android-add",
+         "router": "/guaranteeAdd"
+       },
+       {
+         "index": "21",
+         "name": "总担保查询",
+         "icon": "ios-search",
+         "router": "/guaranteeInfo"
+       },
+       {
+         "index": "22",
+         "name": "保证金录入",
+         "icon": "android-add",
+         "router": "/bondGuaranteeAdd"
+       },
+       {
+         "index": "23",
+         "name": "保证金查询",
+         "icon": "ios-search",
+         "router": "/bondGuaranteeInfo"
+       },
+       {
+         "index": "24",
+         "name": "退还结转录入",
+         "icon": "android-add",
+         "router": "/returnAndTransferAdd"
+       },
+       {
+         "index": "25",
+         "name": "退还结转查询",
+         "icon": "ios-search",
+         "router": "/returnAndTransferInfo"
+       }
+     ]
+   }, {
+     "index": "26",
+     "name": "参数管理",
+     "icon": "home",
+     "router": "/organizationInfo",
+     "children": [{
+         "index": "27",
+         "name": "商品编码表",
+         "icon": "ios-search",
+         "router": "/queryComplex"
+       }, {
+         "index": "28",
+         "name": "币制表",
+         "icon": "ios-search",
+         "router": "/queryCurr"
+       },
+       {
+         "index": "29",
+         "name": "汇率表",
+         "icon": "ios-search",
+         "router": "/queryExchangeRate"
+       },
+       {
+         "index": "30",
+         "name": "贸易方式表",
+         "icon": "ios-search",
+         "router": "/queryTradeMode"
+       },
+       {
+         "index": "31",
+         "name": "运输方式表",
+         "icon": "ios-search",
+         "router": "/queryTransf"
+       },
+       {
+         "index": "32",
+         "name": "成交方式表",
+         "icon": "ios-search",
+         "router": "/queryTransac"
+       },
+       {
+         "index": "33",
+         "name": "关区表",
+         "icon": "ios-search",
+         "router": "/queryCustom"
+       },
+       {
+         "index": "34",
+         "name": "境内目的地表",
+         "icon": "ios-search",
+         "router": "/queryDistrict"
+       },
+       {
+         "index": "35",
+         "name": "国家表",
+         "icon": "ios-search",
+         "router": "/queryCountry"
+       },
+       {
+         "index": "36",
+         "name": "计量单位表",
+         "icon": "ios-search",
+         "router": "/queryUnit"
+       },
+       {
+         "index": "37",
+         "name": "用途代码表",
+         "icon": "ios-search",
+         "router": "/queryUseTo"
+       },
+       {
+         "index": "38",
+         "name": "征减免方式代码表",
+         "icon": "ios-search",
+         "router": "/queryLevymode"
+       },
+       {
+         "index": "39",
+         "name": "包装种类表",
+         "icon": "ios-search",
+         "router": "/queryWraptypeList"
+       }
+     ]
+   }],
+   "menusSysAdmin": [{
+     "index": "1",
+     "name": "用户管理",
+     "icon": "home",
+     "router": "/userAdd",
+     "children": [{
+         "index": "2",
+         "name": "注册用户",
+         "icon": "home",
+         "router": "/userAdd"
+       },
+       {
+         "index": "3",
+         "name": "查询用户",
+         "icon": "home",
+         "router": "/userInfo"
+       }
+     ]
+   }, {
+     "index": "4",
+     "name": "企业信息管理",
+     "icon": "home",
+     "router": "/enterpriseInfo",
+     "children": [{
+       "index": "5",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/enterpriseInfo"
+     }]
+   }, {
+     "index": "6",
+     "name": "组织信息管理",
+     "icon": "home",
+     "router": "/organizationInfo",
+     "children": [{
+       "index": "7",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/organizationInfo"
+     }]
+   }, {
+     "index": "8",
+     "name": "加工账册管理",
+     "icon": "home",
+     "router": "/processingBooksAdd",
+     "children": [{
+       "index": "9",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/processingBooksInfo"
+     }]
+   }, {
+     "index": "10",
+     "name": "物流账册管理",
+     "icon": "home",
+     "router": "/logisticsBookAdd",
+     "children": [{
+       "index": "11",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/logisticsBookInfo"
+     }]
+   }, {
+     "index": "44",
+     "name": "设备账册管理",
+     "icon": "home",
+     "router": "/equipmentBookAdd",
+     "children": [{
+         "index": "45",
+         "name": "录入",
+         "icon": "android-add",
+         "router": "/equipmentBookAdd"
+       },
+       {
+         "index": "46",
+         "name": "查询",
+         "icon": "ios-search",
+         "router": "/equipmentBookInfo"
+       }
+     ]
+   }, {
+     "index": "12",
+     "name": "业务申报表管理",
+     "icon": "home",
+     "router": "/businessDeclaration",
+     "children": [{
+       "index": "13",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/businessDeclarationInfo"
+     }]
+   }, {
+     "index": "14",
+     "name": "出入库单管理",
+     "icon": "home",
+     "router": "/inoutStockAdd",
+     "children": [{
+       "index": "15",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/inoutStockInfo"
+     }]
+   }, {
+     "index": "16",
+     "name": "核放单管理",
+     "icon": "home",
+     "router": "/nuclearReleaseAdd",
+     "children": [{
+       "index": "17",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/nuclearReleaseInfo"
+     }]
+   }, {
+     "index": "18",
+     "name": "核注清单管理",
+     "icon": "home",
+     "router": "/addBondInvt",
+     "children": [{
+       "index": "19",
+       "name": "查询",
+       "icon": "ios-search",
+       "router": "/findBondInvtPage"
+     }]
+   }, {
+     "index": "20",
+     "name": "担保管理",
+     "icon": "home",
+     "router": "/guaranteeAdd",
+     "children": [{
+         "index": "21",
+         "name": "总担保查询",
+         "icon": "ios-search",
+         "router": "/guaranteeInfo"
+       },
+       {
+         "index": "22",
+         "name": "保证金查询",
+         "icon": "ios-search",
+         "router": "/bondGuaranteeInfo"
+       },
+       {
+         "index": "23",
+         "name": "退还结转查询",
+         "icon": "ios-search",
+         "router": "/returnAndTransferInfo"
+       }
+     ]
+   }, {
+     "index": "24",
+     "name": "参数管理",
+     "icon": "home",
+     "router": "/organizationInfo",
+     "children": [{
+         "index": "25",
+         "name": "商品编码表",
+         "icon": "ios-search",
+         "router": "/queryComplex"
+       }, {
+         "index": "26",
+         "name": "币制表",
+         "icon": "ios-search",
+         "router": "/queryCurr"
+       },
+       {
+         "index": "27",
+         "name": "汇率表",
+         "icon": "ios-search",
+         "router": "/queryExchangeRate"
+       },
+       {
+         "index": "28",
+         "name": "贸易方式表",
+         "icon": "ios-search",
+         "router": "/queryTradeMode"
+       },
+       {
+         "index": "29",
+         "name": "运输方式表",
+         "icon": "ios-search",
+         "router": "/queryTransf"
+       },
+       {
+         "index": "30",
+         "name": "成交方式表",
+         "icon": "ios-search",
+         "router": "/queryTransac"
+       },
+       {
+         "index": "31",
+         "name": "关区表",
+         "icon": "ios-search",
+         "router": "/queryCustom"
+       },
+       {
+         "index": "32",
+         "name": "境内目的地表",
+         "icon": "ios-search",
+         "router": "/queryCurr"
+       },
+       {
+         "index": "33",
+         "name": "国家表",
+         "icon": "ios-search",
+         "router": "/queryCountry"
+       },
+       {
+         "index": "34",
+         "name": "计量单位表",
+         "icon": "ios-search",
+         "router": "/queryUnit"
+       },
+       {
+         "index": "35",
+         "name": "用途代码表",
+         "icon": "ios-search",
+         "router": "/queryUseTo"
+       },
+       {
+         "index": "36",
+         "name": "征减免方式代码表",
+         "icon": "ios-search",
+         "router": "/queryLevymode"
+       },
+       {
+         "index": "37",
+         "name": "包装种类表",
+         "icon": "ios-search",
+         "router": "/queryWraptypeList"
+       }
+     ]
+   }],
+
+
+   "menusCompanyAdmin": [{
+     "index" : "1",
+     "name" : "用户管理",
+     "icon" : "home",
+     "router" : "/operUserAdd",
+     "children":[{
+       "index" : "2",
+       "name" : "注册用户",
+       "icon" : "home",
+       "router" : "/operUserAdd"
+     },{
+       "index" : "3",
+       "name" : "查询用户",
+       "icon" : "home",
+       "router" : "/operUserInfo"
+     }]
+   },{
+     "index" : "4",
+     "name" : "企业信息管理",
+     "icon" : "home",
+     "router" : "/enterpriseInfo",
+     "children" :[{
+       "index" : "5",
+       "name" : "录入",
+       "icon" : "android-add",
+       "router" : "/enterpriseAdd"
+     },{
+       "index" : "6",
+       "name" : "查询",
+       "icon" : "ios-search",
+       "router" : "/enterpriseInfo"
+     }]
+   },{
+     "index" : "7",
+     "name" : "组织信息管理",
+     "icon" : "home",
+     "router" : "/organizationInfo",
+     "children" :[{
+       "index" : "8",
+       "name" : "录入",
+       "icon" : "android-add",
+       "router" : "/organizationAdd"
+     },{
+       "index" : "9",
+       "name" : "查询",
+       "icon" : "ios-search",
+       "router" : "/organizationInfo"
+     }]
+   },{
+     "index" : "10",
+     "name" : "代理委托管理",
+     "icon" : "home",
+     "router" : "/letterOfDelegation",
+     "children" :[{
+       "index" : "11",
+       "name" : "申请授权",
+       "icon" : "android-add",
+       "router" : "/entrust"
+     },{
+       "index" : "12",
+       "name" : "委托查询",
+       "icon" : "android-add",
+       "router" : "/agency"
+     }]
+   },{
+     "index" : "13",
+     "name" : "权限管理",
+     "icon" : "home",
+     "router" : "/authorityManagement",
+     "children" :[{
+       "index" : "14",
+       "name" : "角色",
+       "icon" : "ios-search",
+       "router" : "/role"
+     },{
+       "index" : "15",
+       "name" : "权限",
+       "icon" : "ios-search",
+       "router" : "/authority"
+     },{
+       "index" : "16",
+       "name" : "用户角色关联",
+       "icon" : "ios-search",
+       "router" : "/userRole"
+     },{
+       "index" : "17",
+       "name" : "角色权限关联",
+       "icon" : "ios-search",
+       "router" : "/roleAuthority"
+     }]
+   }]
+ }

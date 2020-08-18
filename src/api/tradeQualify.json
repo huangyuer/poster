@@ -1,0 +1,10 @@
+{
+  "post": {
+    "getTypelist": {
+      "dataType": "json",
+      "url": "/tradeQualify/switch/typeList",
+      "oauth": true
+    }
+  },
+  "get": {}
+}

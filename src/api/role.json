@@ -1,0 +1,33 @@
+{
+  "post": {
+    "getMenuesByRoleNames": {
+      "dataType": "file",
+      "url": "/role/menu/getMenuesByRoleNames",
+      "oauth": true,
+      "cors": true
+    },
+    "queryRole": {
+      "dataType": "file",
+      "url": "/authority/role/cuListByPage",
+      "oauth": true
+    },
+    "addRole": {
+      "dataType": "file",
+      "url": "/authority/role/cuAdd",
+      "oauth": true
+    },
+    "updateRole": {
+      "dataType": "file",
+      "url": "/authority/role/update",
+      "oauth": true
+    },
+    "delRole": {
+      "dataType": "file",
+      "url": "/authority/role/cuDeletes",
+      "oauth": true
+    }
+  },
+  "get": {
+
+  }
+}

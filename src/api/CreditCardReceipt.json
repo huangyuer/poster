@@ -1,0 +1,121 @@
+{
+  "post": {
+    "addProtRelease": {
+      "dataType": "json",
+      "url": "/portRelease/save",
+      "oauth": true
+    },
+    "updProtRelease": {
+      "dataType": "json",
+      "url": "/portRelease/update",
+      "oauth": true
+    },
+    "protReleaseDelete": {
+      "dataType": "json",
+      "url": "/portRelease/delete",
+      "oauth": true
+    },
+
+    "getDtDetailsListBySeqNo": {
+      "dataType": "json",
+      "url": "/wareHouse/getDtDetailsListBySeqNo",
+      "oauth": true
+    },
+    "expendGetBodyBySeqNo": {
+      "dataType": "json",
+      "url": "/expend/getDtDetailsListBySeqNo",
+      "oauth": "true"
+    },
+    "getProtRelease": {
+      "dataType": "json",
+      "url": "/portRelease/getPortRelease",
+      "oauth": true
+    },
+    "protReleasegetDetail": {
+      "dataType": "json",
+      "url": "/portRelease/getDetail",
+      "oauth": true
+    },
+    "portReleasegetList": {
+      "dataType": "json",
+      "url": "/portRelease/getList",
+      "oauth": true
+    },
+    "getProtReleaseDt": {
+      "dataType": "json",
+      "url": "/portRelease/getPortReleaseDt",
+      "oauth": true
+    },
+    "protBinding": {
+      "dataType": "json",
+      "url": "/portRelease/portBinding",
+      "oauth": true
+    },
+    "portReleasedeclare": {
+      "dataType": "json",
+      "url": "/portRelease/declare",
+      "oauth": true
+    },
+    "manualReview": {
+      "dataType": "json",
+      "url": "/portRelease/manualReview",
+      "oauth": true
+    },
+    "audit": {
+      "dataType": "json",
+      "url": "/portRelease/audit",
+      "oauth": true
+    },
+    "portReleaseGetListForDetail": {
+      "dataType": "json",
+      "url": "/portRelease/getListForDetail",
+      "oauth": true
+    },
+    "portReleasesaveInexpRlt": {
+      "dataType": "json",
+      "url": "/portRelease/saveInexpRlt",
+      "oauth": true
+    },
+    "portUseless": {
+      "dataType": "json",
+      "url": "/portRelease/useless",
+      "oauth": true
+    },
+    "portReleaseupdInexpRlt": {
+      "dataType": "json",
+      "url": "/portRelease/updInexpRlt",
+      "oauth": true
+    },
+    "portReleasedeclareInexpRlt": {
+      "dataType": "json",
+      "url": "/portRelease/declareInexpRlt",
+      "oauth": true
+    },
+    "portReleasedelInexpRlt": {
+      "dataType": "json",
+      "url": "/portRelease/delInexpRlt",
+      "oauth": true
+    },
+    "getDirDetailPage": {
+      "dataType": "json",
+      "url": "/billDirBsc/getBillDt",
+      "oauth": true
+    },
+    "getStockDetail": {
+      "dataType": "json",
+      "url": "/baseserver/stock/getDetails",
+      "oauth": true
+    },
+    "getStockDtQty": {
+      "dataType": "json",
+      "url": "/baseserver/stock/getDtQty",
+      "oauth": true
+    },
+    "getPortRltSeqno": {
+      "dataType": "json",
+      "url": "/portRelease/getPortRltSeqno",
+      "oauth": true
+    }
+  },
+  "get": {}
+}

@@ -1,0 +1,65 @@
+{
+  "post": {
+    "sasDeclareFrom": {
+      "dataType": "json",
+      "url": "/sasDeclare/save",
+      "oauth": true
+    },
+    "sasDeclareDeleteBs": {
+      "dataType": "json",
+      "url": "/sasDeclare/deleteBsc",
+      "oauth": true
+    },
+    "sasDeclaresSlectBsc": {
+      "dataType": "json",
+      "url": "/sasDeclare/selectBsc",
+      "oauth": true
+    },
+    "sasDeclareSelectDetail": {
+      "dataType": "json",
+      "url": "/sasDeclare/selectDetail",
+      "oauth": true
+    },
+    "sasDeclareDeclare": {
+      "dataType": "json",
+      "url": "/sasDeclare/declare",
+      "oauth": true
+    },
+    "sasDeclareCancel": {
+      "dataType": "json",
+      "url": "/sasDeclare/cancel",
+      "oauth": true
+    },
+    "sasDeclareFindBuNoByType": {
+      "dataType": "json",
+      "url": "/sasDeclare/findBuNoByType",
+      "oauth": true
+    },
+    "sasDeclareEndCase": {
+      "dataType": "json",
+      "url": "/sasDeclare/endCase",
+      "oauth": true
+    },
+    "findProductDtsByMaterNo": {
+      "dataType": "json",
+      "url": "/expend/getConDtByMaterNos",
+      "oauth": true
+    },
+    "getPortPlaneBsc": {
+      "dataType": "json",
+      "url": "/portRelease/getPortPlaneBsc",
+      "oauth": true
+    },
+    "getPortPlaneDts": {
+      "dataType": "json",
+      "url": "/portRelease/getPortPlaneDt",
+      "oauth": true
+    },
+    "businessDeclarSelectBsc": {
+      "dataType": "json",
+      "url": "/wareHouse/getWhByMaterNos",
+      "oauth": true
+    }
+  },
+  "get": {}
+}

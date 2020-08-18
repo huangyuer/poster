@@ -1,0 +1,204 @@
+{
+  "post": {
+    "billDirDtSave": {
+      "dataType": "json",
+      "url": "/billDirBsc/save",
+      "oauth": true
+    },
+    "billDirDtUpdate": {
+      "dataType": "json",
+      "url": "/billDirBsc/save",
+      "oauth": true
+    },
+    "billDirDetail": {
+      "dataType": "json",
+      "url": "/billDirBsc/getDetail",
+      "oauth": true
+    },
+    "billDirDtDeclare": {
+      "dataType": "json",
+      "url": "/billDirBsc/declare",
+      "oauth": true
+    },
+    "pathBillOfladingInfoGetList": {
+      "dataType": "json",
+      "url": "/billDirBsc/getBillDirBscList",
+      "oauth": true
+    },
+    "deletePathBillOfladingInfo": {
+      "dataType": "json",
+      "url": "/billDirBsc/delete",
+      "oauth": true
+    },
+    "getDeclareBill": {
+      "dataType": "json",
+      "url": "/billDirBsc/getDeclareBill",
+      "oauth": true
+    },
+    "queryModifyGetById": {
+      "dataType": "json",
+      "url": "/billDirBsc/queryModifyGetById",
+      "oauth": true
+    },
+    "modifySave": {
+      "dataType": "json",
+      "url": "/billDirBsc/modifySave",
+      "oauth": true
+    },
+    "billDirDtInvalid": {
+      "dataType": "json",
+      "url": "/billDirBsc/billDirDtInvalid",
+      "oauth": true
+    },
+    "modifyDeclare": {
+      "dataType": "json",
+      "url": "/billDirBsc/modifyDeclare",
+      "oauth": true
+    },
+    "/billDirBscPDF": {
+      "dataType": "json",
+      "url": "/billDirBsc/billDirBscPDF",
+      "oauth": true
+    },
+    "pathBillDirExpBscInfoGetList": {
+      "dataType": "json",
+      "url": "/billDirBsc/getBillDirExpBscList",
+      "oauth": true
+    },
+    "deletePathBillDirExpBscInfoGetList": {
+      "dataType": "json",
+      "url": "/billDirBsc/deleteExp",
+      "oauth": true
+    },
+    "billDirExpDtSave": {
+      "dataType": "json",
+      "url": "/billDirBsc/saveExp",
+      "oauth": true
+    },
+    "billDirExpDtUpdate": {
+      "dataType": "json",
+      "url": "/billDirBsc/saveExp",
+      "oauth": true
+    },
+    "billDirExpDetail": {
+      "dataType": "json",
+      "url": "/billDirBsc/getDetailExp",
+      "oauth": true
+    },
+
+    "queryModifyGetByIdExp": {
+      "dataType": "json",
+      "url": "/billDirBsc/queryModifyGetByIdExp",
+      "oauth": true
+    },
+    "modifySaveExp": {
+      "dataType": "json",
+      "url": "/billDirBsc/modifySaveExp",
+      "oauth": true
+    },
+    "modifyDeclareExp": {
+      "dataType": "json",
+      "url": "/billDirBsc/modifyDeclareExp",
+      "oauth": true
+    },
+    "getBillDirBscList": {
+      "dataType": "json",
+      "url": "/billDirBsc/getBillDirBscList",
+      "oauth": true
+    },
+    "billDirExpDtInvalid": {
+      "dataType": "json",
+      "url": "/billDirBsc/billDirExpDtInvalid",
+      "oauth": true
+    },
+    "billDirExpDtDeclareValidate": {
+      "dataType": "json",
+      "url": "/billDirBsc/billDirExpDtDeclareValidate",
+      "oauth": true
+    },
+    "billDirExpDtDeclare": {
+      "dataType": "json",
+      "url": "/billDirBsc/declareExp",
+      "oauth": true
+    },
+    "deleteInAndOut": {
+      "dataType": "json",
+      "url": "/billDirBsc/deleteInAndOut",
+      "oauth": true
+    },
+    "deleteInAndOutExp": {
+      "dataType": "json",
+      "url": "/billDirBsc/deleteInAndOutExp",
+      "oauth": true
+    },
+    "billDirWhSave": {
+      "dataType": "json",
+      "url": "/billDirBsc/billDirWhSave",
+      "oauth": true
+    },
+    "billDirWhSaveExp": {
+      "dataType": "json",
+      "url": "/billDirBsc/billDirWhSaveExp",
+      "oauth": true
+    },
+    "pathBillOfladingInfo": {
+      "dataType": "json",
+      "url": "/billDirBsc/getStockList",
+      "oauth": true,
+      "cors": true
+    },
+    "pathBillDirExpBscInfo": {
+      "dataType": "json",
+      "url": "/billDirBsc/getStockListExp",
+      "oauth": true,
+      "cors": true
+    },
+    "confirmInAndOut": {
+      "dataType": "json",
+      "url": "/billDirBsc/modifyBillDirWh",
+      "oauth": true
+    },
+    "confirmInAndOutExp": {
+      "dataType": "json",
+      "url": "/billDirBsc/modifyBillDirExpWh",
+      "oauth": true
+    },
+    "getStockList": {
+      "dataType": "json",
+      "url": "/billDirBsc/getStockListNew",
+      "oauth": true,
+      "cors": true
+    },
+    "getStockListExp": {
+      "dataType": "json",
+      "url": "/billDirBsc/getStockListNewExp",
+      "oauth": true,
+      "cors": true
+    },
+    "queryBillDirDetail": {
+      "dataType": "json",
+      "url": "/billDirBsc/queryBillDirDetail",
+      "oauth": true,
+      "cors": true
+    },
+    "queryBillDirExpDetail": {
+      "dataType": "json",
+      "url": "/billDirBsc/queryBillDirExpDetail",
+      "oauth": true,
+      "cors": true
+    },
+    "getStockDtDetails": {
+      "dataType": "json",
+      "url": "/billDirBsc/getStockDtDetails",
+      "oauth": true,
+      "cors": true
+    }
+  },
+  "get": {
+    "printPdf": {
+      "dataType": "json",
+      "url": "/billDirBsc/billDirBscPDF",
+      "oauth": true
+    }
+  }
+}

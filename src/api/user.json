@@ -1,0 +1,84 @@
+{
+  "post": {
+    "sysLogin": {
+      "dataType": "json",
+      "url": "/user/login1",
+      "oauth": false
+    },
+    "BackLogin": {
+      "dataType": "json",
+      "url": "/user/sendYzm",
+      "oauth": false
+    },
+    "BindUser": {
+      "dataType": "json",
+      "url": "/user/bindUser",
+      "oauth": true
+    },
+    "changePassWord": {
+      "dataType": "json",
+      "url": "/user/updatePassword",
+      "oauth": true
+    },
+    "BackLoginUser": {
+      "dataType": "json",
+      "url": "/user/resetPassword",
+      "oauth": false
+    },
+    "sysLogout": {
+      "dataType": "json",
+      "url": "/user/lognOut",
+      "oauth": true
+    },
+    "backPassword": {
+      "url": "/user/sendYzm",
+      "dataType": "json",
+      "oauth": true
+    },
+    "userLoginByToken": {
+      "url": "/user/loginByToken",
+      "dataType": "json",
+      "oauth": false
+    },
+    "addManagerUser": {
+      "dataType": "json",
+      "url": "/user/addManagerUser",
+      "oauth": true
+    },
+    "addOperatorUser": {
+      "dataType": "json",
+      "url": "/user/addUummser",
+      "oauth": true
+    },
+    "queryUser": {
+      "dataType": "json",
+      "url": "/user/getUsers",
+      "oauth": true
+    },
+    "updateManagerUser": {
+      "dataType": "json",
+      "url": "/user/updateManagerUser",
+      "oauth": true
+    },
+    "updateOperatorUser": {
+      "dataType": "json",
+      "url": "/user/updateOperatorUser",
+      "oauth": true
+    },
+    "userDelete": {
+      "dataType": "json",
+      "url": "/user/deleteManagerUser",
+      "oauth": true
+    }
+  },
+  "get": {
+    "loginRoot": {
+      "url": "/user/custom/login",
+      "oauth": false
+    },
+    "loginAgain": {
+      "url": "/user/custom/loginhandler",
+      "oauth": false
+    }
+  }
+}

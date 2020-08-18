@@ -1,0 +1,47 @@
+{
+    "post": {
+      "Materialsave": {
+        "dataType": "json",
+        "url": "/expend/save",
+        "oauth": "true"
+      },
+      "MaterialdeleteBsc": {
+        "dataType": "json",
+        "url": "/expend/deleteBsc",
+        "oauth": "true"
+      },
+      "MaterialselectBsc": {
+        "dataType": "json",
+        "url": "/expend/selectBsc",
+        "oauth": "true"
+      },
+      "MaterialselectDetail": {
+        "dataType": "json",
+        "url": "/expend/selectDetail",
+        "oauth": "true"
+      },
+      "Materialdeclare": {
+        "dataType": "json",
+        "url": "/expend/declare",
+        "oauth": "true"
+      },
+      "Materialcancel": {
+        "dataType": "json",
+        "url": "/expend/cancel",
+        "oauth": "true"
+      },
+      "Materialchange": {
+        "dataType": "json",
+        "url": "/expend/change",
+        "oauth": "true"
+      },
+      "MaterialgetDtsByPid": {
+        "dataType": "json",
+        "url": "/expend/getDtsByPid",
+        "oauth": "true"
+      }
+    },
+    "get": {
+
+    }
+  }

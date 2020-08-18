@@ -1,0 +1,57 @@
+{
+  "post": {
+    "importBondedSave": {
+      "dataType": "json",
+      "url": "/sumStat/save",
+      "oauth": true
+    },
+    "importBondedUpdate": {
+      "dataType": "json",
+      "url": "/sumStat/update",
+      "oauth": true
+    },
+    "importBondedDelete": {
+      "dataType": "json",
+      "url": "/sumStat/delete",
+      "oauth": true
+    },
+    "importBondedDeclare": {
+      "dataType": "json",
+      "url": "/sumStat/declare",
+      "oauth": true
+    },
+
+    "importBondedGetListSum": {
+      "dataType": "json",
+      "url": "/sumStat/getListSum",
+      "oauth": true
+    },
+    "importBondedDetail": {
+      "dataType": "json",
+      "url": "/sumStat/getListDetail",
+      "oauth": true
+    },
+    "importBondedByCustoms": {
+      "dataType": "json",
+      "url": "/sumStat/getListByCustoms",
+      "oauth": true
+    },
+    "importBondedByDetailByCustoms": {
+      "dataType": "json",
+      "url": "/sumStat/getDetailByCustoms",
+      "oauth": true
+    },
+    "importBondedGetFile": {
+      "dataType": "json",
+      "url": "/sumStat/getFile",
+      "oauth": true
+    }
+  },
+  "get": {
+    "importBondedPDF": {
+      "dataType": "json",
+      "url": "/sumStat/pdf",
+      "oauth": true
+    }
+  }
+}

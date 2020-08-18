@@ -1,0 +1,33 @@
+{
+    "post": {
+        "findBondInvtPage": {
+			"dataType": "json",
+			"url": "/bondInvt/getList",
+			"oauth": true
+		},
+		"setDeclareCustomer": {
+			"dataType": "json",
+			"url": "/bondInvt/setDeclareCustomer",
+			"oauth": true
+		},
+		"bondInvtClearAppl": {
+			"dataType": "json",
+			"url": "/bondInvt/clearAppl",
+			"oauth": true
+		},
+		"findBondInvtInfo": {
+			"dataType": "json",
+			"url": "/bondInvt/getDetail",
+			"oauth": true
+		},
+		"getBondInvtDt": {
+			"dataType": "json",
+			"url": "/bondInvt/getBondInvtDt",
+			"oauth": true
+		}
+    },
+    "get": {
+  
+    }
+  }
+  
